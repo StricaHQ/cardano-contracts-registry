@@ -1,0 +1,17 @@
+{
+  "projectName": "Minswap",
+  "labelPrefix": "Minswap",
+  "website": "https://minswap.org",
+  "twitter": "MinswapDEX",
+  "discord": "https://discord.gg/minswap",
+  "category": "DEX",
+  "contracts": [
+    {
+      "name": "Order Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "a65ca58a4e9c755fa830173d2a5caed458ac0c73f97db7faae2e7e3b"
+    }
+  ]
+}
