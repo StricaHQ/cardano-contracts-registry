@@ -6,7 +6,21 @@
 
 # Cardano Contracts Registry
 
-This is an off-chain registry to maintain labels, audits, and metadata for the dApps on Cardano. Please create or update your dApp project file to update the information on Cardanoscan Explorer.
+This is an off-chain registry to maintain labels, audits, and metadata for the dApps on Cardano. Please create or update your dApp project file to update the information on the Cardanoscan Explorer.
+
+- [How to create a new entry?](#how-to-create-a-new-entry-)
+  + [1. Fork and clone this repo](#1-fork-and-clone-this-repo)
+  + [2. create a new file under `projects` folder for your project](#2-create-a-new-file-under--projects--folder-for-your-project)
+  + [3. Add the meta details](#3-add-the-meta-details)
+  + [4. Add contracts details](#4-add-contracts-details)
+  + [5. Validate your changes](#5-validate-your-changes)
+  + [6. Create a pull request](#6-create-a-pull-request)
+  + [7. Send us the pull request link!](#7-send-us-the-pull-request-link-)
+- [Specification Guide](#specification-guide)
+  + [dApp](#dapp)
+  + [Contract](#contract)
+  + [Audit](#audit)
+  + [Examples](#examples)
 
 ## How to create a new entry?
 
@@ -80,20 +94,23 @@ This is an off-chain registry to maintain labels, audits, and metadata for the d
 }
 ```
 
-### 5. Create a pull request
+### 5. Validate your changes
+Please execute `npm run validate` to verify your changes, this will ensure that your changes follow the spec defined in the [Specification Guide](#specification-guide).
+### 6. Create a pull request
 
 Commit your changes, and create a [pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork)
 
-### 6. Send us the pull request link!
+### 7. Send us the pull request link!
 
 To help us verify the authenticity of the pull request please send us the pull request link via a dm from your official twitter at @cardanoscan.io or send us an email on contact@cardanoscan.io from your official email address.
 
 ---
 
-## Naming Guide
+## Specification Guide
 
 The `labelPrefix` and `contracts.name` field is used in conjunction to form a label. See below for field limits and examples,
 
+### dApp
 ---
 
 | Field       | Max Char Limit |          |
@@ -107,29 +124,30 @@ The `labelPrefix` and `contracts.name` field is used in conjunction to form a la
 
 ---
 
-**Contracts**
+### Contract
 | Field | Max Char Limit | |
 |:------|:---------------|:---------|
-| name | 15 | Required |
+| name | 20 | Required |
 | version | numeric | Required |
 | languageVersion | numeric | Required |
 | scriptHash| 56 | Required |
 | github | 80 | Optional |
 | description | 140 | Optional |
-| audit | | Optional
+| audit | | Optional |
+
+You can visit [Cardanoscan Address Inspector](https://cardanoscan.io/addressInspector) to extract `scriptHash` (paymentCredential) from an address. 
 
 ---
-
-**Audit**
+### Audit
 | Field | Max Char Limit | |
 |:------|:---------------|:---------|
-| provider | 15 | Required |
+| provider | 20 | Required |
 | report | 120 | Required |
 | date | DD-MM-YYYY | Required |
 
 ---
 
-## Examples
+### Examples
 
 ```json
 {
