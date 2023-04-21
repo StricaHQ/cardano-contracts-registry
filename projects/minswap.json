@@ -11,7 +11,105 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "a65ca58a4e9c755fa830173d2a5caed458ac0c73f97db7faae2e7e3b"
+      "scriptHash": "a65ca58a4e9c755fa830173d2a5caed458ac0c73f97db7faae2e7e3b",
+      "audit": [
+        {
+          "provider": "CertiK",
+          "report": "https://skynet.certik.com/projects/minswap",
+          "date": "25-08-2022"
+        }
+      ]
+    },
+    {
+      "name": "Pool Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "e1317b152faac13426e6a83e06ff88a4d62cce3c1634ab0a5ec13309",
+      "audit": [
+        {
+          "provider": "CertiK",
+          "report": "https://skynet.certik.com/projects/minswap",
+          "date": "25-08-2022"
+        }
+      ]
+    },
+    {
+      "name": "Pool Factory MP",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "13aa2accf2e1561723aa26871e071fdf32c867cff7e7d50ad470d62f",
+      "audit": [
+        {
+          "provider": "CertiK",
+          "report": "https://skynet.certik.com/projects/minswap",
+          "date": "25-08-2022"
+        }
+      ]
+    },
+    {
+      "name": "LP Token MP",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "e4214b7cce62ac6fbba385d164df48e157eae5863521b4b67ca71d86",
+      "audit": [
+        {
+          "provider": "CertiK",
+          "report": "https://skynet.certik.com/projects/minswap",
+          "date": "25-08-2022"
+        }
+      ]
+    },
+    {
+      "name": "Pool NFT MP",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "0be55d262b29f564998ff81efe21bdc0022621c12f15af08d0f2ddb1",
+      "audit": [
+        {
+          "provider": "CertiK",
+          "report": "https://skynet.certik.com/projects/minswap",
+          "date": "25-08-2022"
+        }
+      ]
+    },
+    {
+      "name": "Staking Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "9b85d5e8611945505f078aeededcbed1d6ca11053f61e3f9d999fe44"
+    },
+    {
+      "name": "Harvest Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "98df3b00a1500fcb77daa0520550fb088fc923399788b89637b9de59"
+    },
+    {
+      "name": "MINt Staking",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "9df55104326a3264d803d44ed87139581d1c912e26ba8e73bc385e2f"
+    },
+    {
+      "name": "Vesting Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "a813c75283bac225b19f1d0c0a914d89cac6db9a9ce967d105d353ec"
+    },
+    {
+      "name": "Staking Contract",
+      "version": 2,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "b15a1a010843e8afb6f963b03d452be815b533dad0cd23d819c2d201"
     }
   ]
 }
