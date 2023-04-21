@@ -1,0 +1,22 @@
+name: JSON validation
+
+on:
+  pull_request:
+    branches:
+      master      
+    paths:
+      - 'projects/*.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Validate JSON files
+        run: npm run validate

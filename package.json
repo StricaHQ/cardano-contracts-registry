@@ -1,0 +1,14 @@
+{
+  "name": "@stricahq/cardano-contracts-registry",
+  "version": "1.0.0",
+  "description": "An off-chain registry to maintain labels, audits, and metadata for the dApps on Cardano",
+  "scripts": {
+    "validate": "node scripts/validate"
+  },
+  "author": "Strica",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@joi/date": "^2.1.0",
+    "joi": "^17.9.1"
+  }
+}
