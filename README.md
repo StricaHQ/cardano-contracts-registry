@@ -127,7 +127,7 @@ The `labelPrefix` and `contracts.name` field is used in conjunction to form a la
 ### Contract
 | Field | Max Char Limit | |
 |:------|:---------------|:---------|
-| name | 20 | Required |
+| name | 25 | Required |
 | version | numeric | Required |
 | languageVersion | numeric | Required |
 | scriptHash| 56 | Required |

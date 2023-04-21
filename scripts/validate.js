@@ -8,7 +8,7 @@ const auditSchema = Joi.object({
 });
 
 const contractSchema = Joi.object({
-  name: Joi.string().max(20).required(),
+  name: Joi.string().max(25).required(),
   version: Joi.number().required(),
   language: Joi.string().valid("PLUTUS", "NATIVESCRIPT").required(),
   languageVersion: Joi.number().required(),
