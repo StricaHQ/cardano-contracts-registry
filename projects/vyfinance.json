@@ -1,0 +1,683 @@
+{
+  "projectName": "VyFinance",
+  "labelPrefix": "VyFi:",
+  "website": "https://app.vyfi.io",
+  "twitter": "https://twitter.com/VyFiOfficial",
+  "discord": "https://discord.com/invite/xGAD3hSXbu",
+  "category": "DEFI",
+  "description": "Cardano DeFi",
+  "contracts": [
+    {
+      "name": "Vault VYFI/CRDIDX Deposit Validator",
+      "description": "LP-1000001",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "e8191d57b95140cbdbf06ff9035b22551c1fa7374908aa4b5ed0667e"
+    },
+    {
+      "name": "Vault VYFI/CRDIDX Reward Validator",
+      "description": "LP-1000001",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "dba58f78f8426bbed35979b12afb1c25596ae9270b62851cc9e8dcc8"
+    },
+    {
+      "name": "Vault BLC/BLCBRONZE Deposit Validator",
+      "description": "NFT-1000001",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "5e9e26f4682106fc07e44b68e1bebcf63c0f518c6f8fe8f8da3e2bc6"
+    },
+    {
+      "name": "Vault BLC/BLCBRONZE Reward Validator",
+      "description": "NFT-1000001",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "713a5294da4ed20e135ac9827de83dd9192985695df20f896269a0d4"
+    },
+    {
+      "name": "Vault BLC/BLCSILVER Deposit Validator",
+      "description": "NFT-1000002",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "ba99069c26e06431cf7a4d602a72627a8e8d7f29494596bf6c06e2f4"
+    },
+    {
+      "name": "Vault BLC/BLCSILVER Reward Validator",
+      "description": "NFT-1000002",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "d63502533d3aca323cfd75294f856bdf7026a2ac51a7baa8c114e03c"
+    },
+    {
+      "name": "Vault BLC/BLCGOLD Deposit Validator",
+      "description": "NFT-1000003",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "1975980452d44fc35e82ccb879afd9a78de2dd14a0b5be72dfd02e26"
+    },
+    {
+      "name": "Vault BLC/BLCGOLD Reward Validator",
+      "description": "NFT-1000003",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "c1358123fe8d04a0e698e1630dddf38fad7a910e323136453eb4e4d7"
+    },
+    {
+      "name": "Vault TRINK/ Deposit Validator",
+      "description": "NFT-1000004",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "b7d7e6591b10d7f6afb013907460a280fd8b616227d3387464e1d7ea"
+    },
+    {
+      "name": "Vault TRINK/ Reward Validator",
+      "description": "NFT-1000004",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "c02e191bf64dc380cb789d97dd5acba6c9ef324cbfb4df1fb38e68e3"
+    },
+    {
+      "name": "Vault TRINK/ Deposit Validator",
+      "description": "NFT-1000005",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "285d99ff36deddaae006a9259d1281c4de95a8a6c7381324e1cfacb6"
+    },
+    {
+      "name": "Vault TRINK/ Reward Validator",
+      "description": "NFT-1000005",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "83b6e64920dd3662f3762550e99cbf88af4702b739ebb3531e854d58"
+    },
+    {
+      "name": "Vault TRINK/ Deposit Validator",
+      "description": "NFT-1000006",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "0a10665f6ec6726a0b443b21598257b789980b4dadbcba69eb722b86"
+    },
+    {
+      "name": "Vault TRINK/ Reward Validator",
+      "description": "NFT-1000006",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "4d2312b46380bc4d3e2076f16741f05f3d3988ade1571bc7212b1f5b"
+    },
+    {
+      "name": "Vault TRINK/ Deposit Validator",
+      "description": "NFT-1000007",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "12b08d1b16a93a504ae8ccbf196e185b53c9830025b5309322f85a84"
+    },
+    {
+      "name": "Vault TRINK/ Reward Validator",
+      "description": "NFT-1000007",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "8b9a59c1006e1642e3b043118c86a9de447a3f6487baf68e3039f4c0"
+    },
+    {
+      "name": "Vault TRINK/ Deposit Validator",
+      "description": "NFT-1000008",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "07bfeaa0e108557a76c838a4d66025487b53e2b590e0cdf539f7563b"
+    },
+    {
+      "name": "Vault TRINK/ Reward Validator",
+      "description": "NFT-1000008",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "9ddc2eccccc4d1286a1adbc55dc5d5d637eda821cdd9be944d7aef25"
+    },
+    {
+      "name": "Vault TRINK/ Deposit Validator",
+      "description": "NFT-1000009",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "b87429bc214ad7f63fc214dabf46201a436dacbab90c8e7a729219e2"
+    },
+    {
+      "name": "Vault TRINK/ Reward Validator",
+      "description": "NFT-1000009",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "0edff0211030d9bc6c149cdef90439f3b015e2f722ca4d495f1d8c73"
+    },
+    {
+      "name": "Vault TRINK/ Deposit Validator",
+      "description": "NFT-1000010",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "7c8d446a89afe962e11c6bd92a5253640a9f8e12701d8c8de5e200e5"
+    },
+    {
+      "name": "Vault TRINK/ Reward Validator",
+      "description": "NFT-1000010",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "b34876c5528054530335493019bf15f87196a41564b7adc78e4f78fb"
+    },
+    {
+      "name": "Vault BLC/BLCGOLD Deposit Validator",
+      "description": "NFT-1000011",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "f335097a207d209539a935fbdd5c0ce0b4f25dd45602140a11f057ae"
+    },
+    {
+      "name": "Vault BLC/BLCGOLD Reward Validator",
+      "description": "NFT-1000011",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "6cc1d2df5ad9b9edf4c22e0e5656c22fe0c0ca96f45e543184a99955"
+    },
+    {
+      "name": "Vault IDP/ Deposit Validator",
+      "description": "NFT-1000012",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "5b30cb2a715c7a366ce43ff5bac1d0fad2b07140a669c7089aef9a77"
+    },
+    {
+      "name": "Vault IDP/ Reward Validator",
+      "description": "NFT-1000012",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "c9f9c9523a4f0f31b2f56812ba9745f18b22772ed89386b1e38af0b4"
+    },
+    {
+      "name": "Vault IDP/ Deposit Validator",
+      "description": "NFT-1000013",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "a9fadeee3de97f71e8adf187d0f56d43f8aa5f2644e3f153a65ff501"
+    },
+    {
+      "name": "Vault IDP/ Reward Validator",
+      "description": "NFT-1000013",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "b537f7eef656eddf93673b57384743445edf58bf3d8ebd930608cfe5"
+    },
+    {
+      "name": "Vault IDP/ Deposit Validator",
+      "description": "NFT-1000014",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "09b1b2d3ff12f3057572076fddcd737dfc630a92667c392e3bdf6271"
+    },
+    {
+      "name": "Vault IDP/ Reward Validator",
+      "description": "NFT-1000014",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "2538246ffd416b2b4bf4016b11cbbd0de716bba046d621d53d955ca2"
+    },
+    {
+      "name": "Vault IDP/ Deposit Validator",
+      "description": "NFT-1000015",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "c5d0a4141389c7344d8056aa767daf23497aa1b00588daca8998bf1e"
+    },
+    {
+      "name": "Vault IDP/ Reward Validator",
+      "description": "NFT-1000015",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "fde1304e2f3e3adb3324aa27cfba75ca227045b1a9ab27bb459ef1e6"
+    },
+    {
+      "name": "Vault IDP/ Deposit Validator",
+      "description": "NFT-1000016",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "4a71028d62c8eb479a30eaf705ba5ecd1529e1d2a4ecd6273ef416c7"
+    },
+    {
+      "name": "Vault IDP/ Reward Validator",
+      "description": "NFT-1000016",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "33fee9a1632853958ed7857a0306931a487073ae93ed30ba71b5c3fd"
+    },
+    {
+      "name": "Vault VYFI/VYFINFTWhite Deposit Validator",
+      "description": "NFT-1000017",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "b0762738826d38af0cd7b89dc9211cb738d457960d892f79094d58d1"
+    },
+    {
+      "name": "Vault VYFI/VYFINFTWhite Reward Validator",
+      "description": "NFT-1000017",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "b9cd9c8bcfd186738e1baf77d1c4764b2920b763938b9d357d67ec5e"
+    },
+    {
+      "name": "Vault VYFI/VYFINFTPurple Deposit Validator",
+      "description": "NFT-1000018",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "bc6ca6b00177b85c2f156685ef5290201da7f611f7843975bd7db3f6"
+    },
+    {
+      "name": "Vault VYFI/VYFINFTPurple Reward Validator",
+      "description": "NFT-1000018",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "f93112ec74b3bbd01a3722f1e83ed14f68bc412bb755bec8842e584a"
+    },
+    {
+      "name": "Vault VYFI/VYFINFTGold Deposit Validator",
+      "description": "NFT-1000019",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "01f2ba13035ac7f1452ba21fba9d181c100990dbbdd647186deb855b"
+    },
+    {
+      "name": "Vault VYFI/VYFINFTGold Reward Validator",
+      "description": "NFT-1000019",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "f1d1db83bb85c610db553bcbb42daac5af6431074a9bb32850fee6bc"
+    },
+    {
+      "name": "Vault Cornucopias [via ChainPort.io]/VYFINFTWhite Deposit Validator",
+      "description": "NFT-1000020",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "19841a76d60afee0c1a0f02772b6022560372977a8d811849542e456"
+    },
+    {
+      "name": "Vault Cornucopias [via ChainPort.io]/VYFINFTWhite Reward Validator",
+      "description": "NFT-1000020",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "e6a52ddd6054f6578913cc7a0a3e362b0d1c73b817880a31da6483a1"
+    },
+    {
+      "name": "Vault Cornucopias [via ChainPort.io]/VYFINFTGold Deposit Validator",
+      "description": "NFT-1000021",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "ca1a3531836e3287308b891939b002310e3e247a738997f513b569eb"
+    },
+    {
+      "name": "Vault Cornucopias [via ChainPort.io]/VYFINFTGold Reward Validator",
+      "description": "NFT-1000021",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "a2fb8f6c7c810d91e43fa356ce0a76b75b83f1db29efb76182b306ed"
+    },
+    {
+      "name": "Vault Cornucopias [via ChainPort.io]/VYFINFTPurple Deposit Validator",
+      "description": "NFT-1000022",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "d311849a0c2a10b1d5cd268813ebc87d0f6594e34d641d8d987a431f"
+    },
+    {
+      "name": "Vault Cornucopias [via ChainPort.io]/VYFINFTPurple Reward Validator",
+      "description": "NFT-1000022",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "e64483a613b7b9797f2a0804efac0cf2e15049e392e997fb54746358"
+    },
+    {
+      "name": "Vault quest/ Deposit Validator",
+      "description": "NFT-1000023",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "2c3e7b33ff1e15814a93189a4cf208790180e6d7142cb03451d25738"
+    },
+    {
+      "name": "Vault quest/ Reward Validator",
+      "description": "NFT-1000023",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "e81ab7d65797dd41c5ef7e5b4922ae37bf42efbcb66c1eb03d0f0b18"
+    },
+    {
+      "name": "Vault quest/ Deposit Validator",
+      "description": "NFT-1000024",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "5b2fec5b9291930d71c35ac393ec2433242906bd63abbc58578e87d4"
+    },
+    {
+      "name": "Vault quest/ Reward Validator",
+      "description": "NFT-1000024",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "2394c1f5ec23ec3c434160290ba1a6f00cbf4862142a86a128928518"
+    },
+    {
+      "name": "Vault quest/ Deposit Validator",
+      "description": "NFT-1000025",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "5dadf52a893bc61244a5ee20b0565938aec46fd755914754e432e115"
+    },
+    {
+      "name": "Vault quest/ Reward Validator",
+      "description": "NFT-1000025",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "4b93f154c799e0e5ee096c2457d358698767dd9d0cee5e24d6fff60e"
+    },
+    {
+      "name": "Vault quest/ Deposit Validator",
+      "description": "NFT-1000026",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "9e71fa60556b6fddd8605b6f307370aa67f27a1f54af68e2689056db"
+    },
+    {
+      "name": "Vault quest/ Reward Validator",
+      "description": "NFT-1000026",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "b8ca023b292d9f050fca97705521b6dc0a2b39e88dd01022aaecab87"
+    },
+    {
+      "name": "Vault TRINK/ Deposit Validator",
+      "description": "NFT-1000027",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "0f6af7bc74d963b12fe2c0db367ba8b3d540ef70f1c8685b82bd3158"
+    },
+    {
+      "name": "Vault TRINK/ Reward Validator",
+      "description": "NFT-1000027",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "01f14f019f649aa9f42f80af791ceaa2a2d2cb234663768cf04197ae"
+    },
+    {
+      "name": "Vault VYFI/VYFI Deposit Validator",
+      "description": "TOKEN-1000001",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "8c80f27b1e37f0b19539af80842f4b82dfeb018735fedfc055418d6e"
+    },
+    {
+      "name": "Vault VYFI/VYFI Reward Validator",
+      "description": "TOKEN-1000001",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "96ca544166e6b4eb024b96b9104479dc8af9b136e877f010ee2dfefd"
+    },
+    {
+      "name": "Vault BLC/BLC Deposit Validator",
+      "description": "TOKEN-1000002",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "3e26a663443a9001174ce0c8a19748e07bc8ae2aa5694e6ada11f0b7"
+    },
+    {
+      "name": "Vault BLC/BLC Reward Validator",
+      "description": "TOKEN-1000002",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "fa15b6fee3b032da325188f3405d97f9a0dfbf4b9ba0764139626402"
+    },
+    {
+      "name": "Vault ROBOTokenROBO/ROBOTokenROBO Deposit Validator",
+      "description": "TOKEN-1000003",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "5bff94d97e5b0f32d16f91193777cbd5352952295b211f244af53203"
+    },
+    {
+      "name": "Vault ROBOTokenROBO/ROBOTokenROBO Reward Validator",
+      "description": "TOKEN-1000003",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "d6b271fb510941534f9c5d4903e010639f20e5cbe35b1b10272cd2e1"
+    },
+    {
+      "name": "Vault FISH/VYFI Deposit Validator",
+      "description": "TOKEN-1000004",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "17a7f5d27d84b4a16b283562e52b45d98c0e331b604d6721068aadd7"
+    },
+    {
+      "name": "Vault FISH/VYFI Reward Validator",
+      "description": "TOKEN-1000004",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "1905acd41fe7efb58d15f647bb8c4689c3bb65d3b809b40eed59ba2f"
+    },
+    {
+      "name": "Vault NMKR/NMKR Deposit Validator",
+      "description": "TOKEN-1000005",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "6afa323d294a7bedee9611b383ef794c69e9a76ec101a4392cc36c50"
+    },
+    {
+      "name": "Vault NMKR/NMKR Reward Validator",
+      "description": "TOKEN-1000005",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "64c913642c56679947b43abd833caaa54c56fd89c926351d0f561ca3"
+    },
+    {
+      "name": "Vault KIRK/KIRK Deposit Validator",
+      "description": "TOKEN-1000006",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "a91700c7ca8ed318f326ed3d25d758fddd7da304fdf92123a58a346c"
+    },
+    {
+      "name": "Vault KIRK/KIRK Reward Validator",
+      "description": "TOKEN-1000006",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "7e43587541a7f80326ffabb4977327e83f9fcb4097a471024c23fdca"
+    },
+    {
+      "name": "Vault DRIP/VYFI Deposit Validator",
+      "description": "TOKEN-1000007",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "19de0676b08753cc17620002e43e8a89da237f8fffb29332a38253b8"
+    },
+    {
+      "name": "Vault DRIP/VYFI Reward Validator",
+      "description": "TOKEN-1000007",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "37dddafce6f01e2251e97cb18d48a7550f4e48f27bf7586a12908d41"
+    },
+    {
+      "name": "Vault GOKEY/GOKEY Deposit Validator",
+      "description": "TOKEN-1000008",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "c96a33a0d0c1192267a9b83049047c5f22c7cd4879cd6e8bddb61e5a"
+    },
+    {
+      "name": "Vault GOKEY/GOKEY Reward Validator",
+      "description": "TOKEN-1000008",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "d7e16294c4b078fd3e1dcddda9f466d2ae8c0b5ca3e90493e777299a"
+    },
+    {
+      "name": "Vault PROXIE/VYFI Deposit Validator",
+      "description": "TOKEN-1000009",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "1046fbabd781da2055d88f6d9cd156dbe430fdb0adf818e9b719fa7c"
+    },
+    {
+      "name": "Vault PROXIE/VYFI Reward Validator",
+      "description": "TOKEN-1000009",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "2dacb1cd8a84391f3b01e4b55306c052baaf193fa8b2d1cde5f5fa5b"
+    },
+    {
+      "name": "Vault CavalierKingCharles/VYFI Deposit Validator",
+      "description": "TOKEN-1000010",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "6a6b1686ebf6b43c177b7e2bf8c2b61bf795a47a160431548a9ec605"
+    },
+    {
+      "name": "Vault CavalierKingCharles/VYFI Reward Validator",
+      "description": "TOKEN-1000010",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "fe1417a4ef2f1dec438e724cb8a6e9d83c13b94283fb8f15ebf1ec38"
+    },
+    {
+      "name": "Vault Cornucopias [via ChainPort.io]/Cornucopias [via ChainPort.io] Deposit Validator",
+      "description": "TOKEN-1000011",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "3f855d4aac75888ad673cbcf336921f2932787bab0bffd411468416a"
+    },
+    {
+      "name": "Vault Cornucopias [via ChainPort.io]/Cornucopias [via ChainPort.io] Reward Validator",
+      "description": "TOKEN-1000011",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "b2ab495fa01e38340117857441994e1fcad852b43edd41bff2d7bf75"
+    },
+    {
+      "name": "Vault DRIP/DRIP Deposit Validator",
+      "description": "TOKEN-1000012",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "dbf4274350fed2c3f53a5b9b50a781f5bbc2a70d111acb1aa5c3450e"
+    },
+    {
+      "name": "Vault DRIP/DRIP Reward Validator",
+      "description": "TOKEN-1000012",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "0bf3f29e0bec729fa8c8c2447130c3764fbc9c5693b3315ce190cbd8"
+    },
+    {
+      "name": "Vault CETF/VYFI Deposit Validator",
+      "description": "TOKEN-1000013",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "7d271f21ab013f0590e79f63c5a6ca285650d2e14dcd10cf90e35222"
+    },
+    {
+      "name": "Vault CETF/VYFI Reward Validator",
+      "description": "TOKEN-1000013",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "feeee914eacbd06a7d1d42eaa4a503b6cbcb7234bda42715036efc29"
+    },
+    {
+      "name": "Vault CTV/CTV Deposit Validator",
+      "description": "TOKEN-1000014",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "7d8c362812c5ec10e9cb56ac4509eaaf8531d4e20386ebddf3249548"
+    },
+    {
+      "name": "Vault CTV/CTV Reward Validator",
+      "description": "TOKEN-1000014",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "c87d425b50cbf23a73c6bba34fde1d9921b0beeeed0b99f6b62190cd"
+    }
+  ]
+}
