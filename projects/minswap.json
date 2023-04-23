@@ -91,7 +91,7 @@
       "scriptHash": "98df3b00a1500fcb77daa0520550fb088fc923399788b89637b9de59"
     },
     {
-      "name": "MINt Staking",
+      "name": "MINt Staking Contract",
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
