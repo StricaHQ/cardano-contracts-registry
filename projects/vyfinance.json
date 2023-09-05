@@ -2,13 +2,13 @@
   "projectName": "VyFinance",
   "labelPrefix": "VyFi:",
   "website": "https://app.vyfi.io",
-  "twitter": "https://twitter.com/VyFiOfficial",
+  "twitter": "VyFiOfficial",
   "discord": "https://discord.com/invite/xGAD3hSXbu",
   "category": "DEFI",
   "description": "Cardano DeFi",
   "contracts": [
     {
-      "name": "Vault VYFI/Blues_CardanoIndex_LP Deposit Validator",
+      "name": "Vault VYFI/Blues_CardanoIndex Deposit Validator",
       "description": "LP-1000001",
       "version": 1,
       "language": "PLUTUS",
@@ -1269,7 +1269,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "0e499e4bf6df28fa6d6ba7d893fc044fafedcf16dec7a1ef2b3e6809799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "0e499e4bf6df28fa6d6ba7d893fc044fafedcf16dec7a1ef2b3e6809"
     },
     {
       "name": "LP ADA/LENFI Order Validator",
@@ -1285,7 +1285,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "d56c8ca890ffc9b209c691fd184cfb861b51d6a9b0e4e7784348c8e86e279d536da8cd9b8d38fe39c45e974fc022b8cb9d25d433f5b4e6d5"
+      "scriptHash": "d56c8ca890ffc9b209c691fd184cfb861b51d6a9b0e4e7784348c8e8"
     },
     {
       "name": "LP ADA/ANON Order Validator",
@@ -1301,7 +1301,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "a047f7b4d91a56dd4d87c0ca126803e2316b3987a7abe174c9a6e57d799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "a047f7b4d91a56dd4d87c0ca126803e2316b3987a7abe174c9a6e57d"
     },
     {
       "name": "LP ADA/ADAO Order Validator",
@@ -1317,7 +1317,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "25ada4bc09b9e1bb6422e0e082166d19993ff808d136d5249773"
+      "scriptHash": "25ada4bc09b9e1bb6422e0e082166d19993ff808d136d52497731115"
     },
     {
       "name": "LP ADA/OPT Order Validator",
@@ -1333,7 +1333,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "6bd7c95d1a349e5dac982b3c4282e546c7df2aac2f9821f44dc526af799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "6bd7c95d1a349e5dac982b3c4282e546c7df2aac2f9821f44dc526af"
     },
     {
       "name": "LP ADA/CETF Order Validator",
@@ -1349,7 +1349,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "412d46171e7d63a4396f9e6b404e27d83544eda134030f2ae33918e8799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "412d46171e7d63a4396f9e6b404e27d83544eda134030f2ae33918e8"
     },
     {
       "name": "LP ADA/ASHIB Order Validator",
@@ -1365,7 +1365,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "cfc2faf57d45ae3491d1f38ea4b954e9b96c0589bd685c578daf1deab68"
+      "scriptHash": "cfc2faf57d45ae3491d1f38ea4b954e9b96c0589bd685c578daf1dea"
     },
     {
       "name": "LP ADA/NGMI Order Validator",
@@ -1381,7 +1381,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "aff81d4181237a9ea853c9462066351403f4b544a3fe5d99b395835ae023d4ef74967fc841a5e77fe82e41a1b20f0c94de4e2d9d33a2aabe"
+      "scriptHash": "aff81d4181237a9ea853c9462066351403f4b544a3fe5d99b395835a"
     },
     {
       "name": "LP ADA/YUMMI Order Validator",
@@ -1397,7 +1397,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "3581609bb7e8d4dd14243d2c9d3834ab3d0a97916436d16d92801e64054604eced407065845e2d1be94724829a70a796d9abefd276c9df59"
+      "scriptHash": "3581609bb7e8d4dd14243d2c9d3834ab3d0a97916436d16d92801e64"
     },
     {
       "name": "LP ADA/DUM Order Validator",
@@ -1413,7 +1413,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "f66a17775f86ffdd87895f7a3ef19fae27db7e7bd6a002161900d073799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "f66a17775f86ffdd87895f7a3ef19fae27db7e7bd6a002161900d073"
     },
     {
       "name": "LP ADA/$FISH  Order Validator",
@@ -1429,7 +1429,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "b1cb69ff42df1388512fd2232d009e1c8ab5bb4ce3fb1d75589e64fc799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "b1cb69ff42df1388512fd2232d009e1c8ab5bb4ce3fb1d75589e64fc"
     },
     {
       "name": "LP DJED/VYFI Order Validator",
@@ -1461,7 +1461,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "ed9ad22052b6a52e6ca25b721235a76a4ac7120d87868c6de64f05b8b68"
+      "scriptHash": "ed9ad22052b6a52e6ca25b721235a76a4ac7120d87868c6de64f05b8"
     },
     {
       "name": "LP ADA/WHALE Order Validator",
@@ -1477,7 +1477,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "19a709ccaa4ff3e34a5c18ebd995aafd39d2d032f24df62a6c3d3566e023d4ef74967fc841a5e77fe82e41a1b20f0c94de4e2d9d33a2aabe"
+      "scriptHash": "19a709ccaa4ff3e34a5c18ebd995aafd39d2d032f24df62a6c3d3566"
     },
     {
       "name": "LP ADA/LQ Order Validator",
@@ -1493,7 +1493,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "ed6938f106c4a3bc6c06460c87ddf3"
+      "scriptHash": "ed6938f106c4a3bc6c06460c87ddf311cb1889c19b751a4f295491ef"
     },
     {
       "name": "LP ADA/LEAFTOKEN Order Validator",
@@ -1509,7 +1509,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "58e8fb892f16401837a8ef180218b7538f0d1cf4a2a7eeebd4c20aa0799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "58e8fb892f16401837a8ef180218b7538f0d1cf4a2a7eeebd4c20aa0"
     },
     {
       "name": "LP ADA/DSLVR Order Validator",
@@ -1525,7 +1525,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "b66ff3d9c83"
+      "scriptHash": "b66ff3d9c8311c35a0708d451cb8c72daf427ce23a5ced3b531a2113"
     },
     {
       "name": "LP ADA/CCC Order Validator",
@@ -1541,7 +1541,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "9a85cdcd68dd1fb5408c351d775e2c1b14944c76335c80dc1bc978bde023d4ef74967fc841a5e77fe82e41a1b20f0c94de4e2d9d33a2aabe"
+      "scriptHash": "9a85cdcd68dd1fb5408c351d775e2c1b14944c76335c80dc1bc978bd"
     },
     {
       "name": "LP ADA/REVU Order Validator",
@@ -1557,7 +1557,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "43923f74bae14844934e616e3ea448e3528cc835e304668946d075dbda7bb16ec2b7e99cec7fb07a225c60f862d43393bf1a7a5c9d863154"
+      "scriptHash": "43923f74bae14844934e616e3ea448e3528cc835e304668946d075db"
     },
     {
       "name": "LP ADA/MILK Order Validator",
@@ -1573,7 +1573,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "23a6849c4f7edf7b55b7a0b2c6979719bef1dda0db79e09d9733388a6e279d536da8cd9b8d38fe39c45e974fc022b8cb9d25d433f5b4e6d5"
+      "scriptHash": "23a6849c4f7edf7b55b7a0b2c6979719bef1dda0db79e09d9733388a"
     },
     {
       "name": "LP ADA/CHROMA Order Validator",
@@ -1589,7 +1589,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "c1ae426439a45f49923c3ad296122d1d89e3775b1749d5621c873415799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "c1ae426439a45f49923c3ad296122d1d89e3775b1749d5621c873415"
     },
     {
       "name": "LP ADA/cBTC Order Validator",
@@ -1605,7 +1605,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "7b91959229b2e1f1535b3f5adcdcdac0a8221630f2d9e29519ae2977799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "7b91959229b2e1f1535b3f5adcdcdac0a8221630f2d9e29519ae2977"
     },
     {
       "name": "LP ADA/WRT Order Validator",
@@ -1621,7 +1621,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "badff470870499324c16c738cc85378b00300e01e1444b23c8fd202227b00ad1c7f5f5b5b4a19ce23b8a9ff8f04a202a8bd0eb1546f2e18a"
+      "scriptHash": "badff470870499324c16c738cc85378b00300e01e1444b23c8fd2022"
     },
     {
       "name": "LP ADA/IDP Order Validator",
@@ -1637,7 +1637,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "7d7fe01e6a51fb14f0dcbd9a99ea3375c0dd4daeb4fd0429714a4709799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "7d7fe01e6a51fb14f0dcbd9a99ea3375c0dd4daeb4fd0429714a4709"
     },
     {
       "name": "LP ADA/GREENS Order Validator",
@@ -1653,7 +1653,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "0cfccf1fb2d1f35315be5205eaf068b16e8daa157f2651c0dcc9299ee023d4ef74967fc841a5e77fe82e41a1b20f0c94de4e2d9d33a2aabe"
+      "scriptHash": "0cfccf1fb2d1f35315be5205eaf068b16e8daa157f2651c0dcc9299e"
     },
     {
       "name": "LP ADA/MELD Order Validator",
@@ -1669,7 +1669,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "b831beac7"
+      "scriptHash": "b831beac7110288367b4adbb42bab54c6905a750237b08260449a5de"
     },
     {
       "name": "LP ADA/BREAD Order Validator",
@@ -1685,7 +1685,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "ff"
+      "scriptHash": "ff11165f9b6f65426dc9e43516581fac58b06730e1311cd5d804fea7"
     },
     {
       "name": "LP ADA/cPIGGY Order Validator",
@@ -1701,7 +1701,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "fffe4c2d8d7585a86cb1a8167729c6853c232e2a817e598b401ba686799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "fffe4c2d8d7585a86cb1a8167729c6853c232e2a817e598b401ba686"
     },
     {
       "name": "LP ADA/CBLP Order Validator",
@@ -1717,7 +1717,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "ed184a5fa1f2946d287300ac2eaf2048bab3276d19b41465920a0c89b68"
+      "scriptHash": "ed184a5fa1f2946d287300ac2eaf2048bab3276d19b41465920a0c89"
     },
     {
       "name": "LP ADA/GERO Order Validator",
@@ -1733,7 +1733,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "5f99eba64a3e"
+      "scriptHash": "5f99eba64a3e1195c145627d3c9a56ecd680512dec79514ec749fbcc"
     },
     {
       "name": "LP ADA/MYIELD Order Validator",
@@ -1749,7 +1749,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "0f94d904c0712b28a78deea6d79ef1af4b6d4a36374f5c9d0ecacd1dda7bb16ec2b7e99cec7fb07a225c60f862d43393bf1a7a5c9d863154"
+      "scriptHash": "0f94d904c0712b28a78deea6d79ef1af4b6d4a36374f5c9d0ecacd1d"
     },
     {
       "name": "LP ADA/STABLE Order Validator",
@@ -1765,7 +1765,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "bfcf7b21280e686e33d41e5b6750732f66ed587aaae46cc9d1c2368ee023d4ef74967fc841a5e77fe82e41a1b20f0c94de4e2d9d33a2aabe"
+      "scriptHash": "bfcf7b21280e686e33d41e5b6750732f66ed587aaae46cc9d1c2368e"
     },
     {
       "name": "LP ADA/ENCS Order Validator",
@@ -1781,7 +1781,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "afa8060050463d4a0fddc7c5e1ff6a1bcd5469be269f910f2aa430aa799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "afa8060050463d4a0fddc7c5e1ff6a1bcd5469be269f910f2aa430aa"
     },
     {
       "name": "LP ADA/NFTC Order Validator",
@@ -1797,7 +1797,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "518fec05a3e478fe0d45facc2ffd1608242572023ccd2402167eb03a799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "518fec05a3e478fe0d45facc2ffd1608242572023ccd2402167eb03a"
     },
     {
       "name": "LP ADA/BOOK Order Validator",
@@ -1813,7 +1813,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "a26084260e80437077998d3694a30a805a9c50867517979c6bc93f15b68"
+      "scriptHash": "a26084260e80437077998d3694a30a805a9c50867517979c6bc93f15"
     },
     {
       "name": "LP ADA/PUGCHIP Order Validator",
@@ -1829,7 +1829,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "68e15d1709353384a4d104cb2d79"
+      "scriptHash": "68e15d1709353384a4d104cb2d791188b75b74b8c02b3869169c167e"
     },
     {
       "name": "LP ADA/GENS Order Validator",
@@ -1845,7 +1845,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "5854ec667761c57872a7effd31494c3a0daba1d35e8377e02d326a27b68"
+      "scriptHash": "5854ec667761c57872a7effd31494c3a0daba1d35e8377e02d326a27"
     },
     {
       "name": "LP ADA/PBX Order Validator",
@@ -1861,7 +1861,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "0f71d4b9c196df1c5974e2ecbbc21dc1a49c9da71ff8bd7cda2d44fc799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "0f71d4b9c196df1c5974e2ecbbc21dc1a49c9da71ff8bd7cda2d44fc"
     },
     {
       "name": "LP ADA/BANK Order Validator",
@@ -1877,7 +1877,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "fe3acbd18aa5c549e8ed886e1957dc8ffe921480b7e68f0622abb5d5799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "fe3acbd18aa5c549e8ed886e1957dc8ffe921480b7e68f0622abb5d5"
     },
     {
       "name": "LP ADA/VNM Order Validator",
@@ -1893,7 +1893,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "6db780e1ae6ecb514f4f08bd635fa7a3c6a6a5ae1353450360570721799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "6db780e1ae6ecb514f4f08bd635fa7a3c6a6a5ae1353450360570721"
     },
     {
       "name": "LP ADA/BLC Order Validator",
@@ -1909,7 +1909,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "3863447a458809aa42aef276bdb449ce4070676d0d1caaaed0cf4da2799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "3863447a458809aa42aef276bdb449ce4070676d0d1caaaed0cf4da2"
     },
     {
       "name": "LP ADA/NMKR Order Validator",
@@ -1925,7 +1925,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "3faa6d2e02b856f12fbf83d0410850819875ab464b5afda9d4de7505054604eced407065845e2d1be94724829a70a796d9abefd276c9df59"
+      "scriptHash": "3faa6d2e02b856f12fbf83d0410850819875ab464b5afda9d4de7505"
     },
     {
       "name": "LP ADA/DRIP Order Validator",
@@ -1941,7 +1941,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "453dca3cc4bcb4bd5e72875748ea8900d5c4b4d8e2def3979d4a28f26e279d536da8cd9b8d38fe39c45e974fc022b8cb9d25d433f5b4e6d5"
+      "scriptHash": "453dca3cc4bcb4bd5e72875748ea8900d5c4b4d8e2def3979d4a28f2"
     },
     {
       "name": "LP ADA/CROW Order Validator",
@@ -1957,7 +1957,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "8a2de1c7903506c78a68866a246052f24569a88eceae0037c1db0693799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "8a2de1c7903506c78a68866a246052f24569a88eceae0037c1db0693"
     },
     {
       "name": "LP ADA/GENSX Order Validator",
@@ -1973,7 +1973,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "8d0af3aaf63bfc2269f37a69532e853e094f25a150010bf290d4ca8a799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "8d0af3aaf63bfc2269f37a69532e853e094f25a150010bf290d4ca8a"
     },
     {
       "name": "LP ADA/DGAF Order Validator",
@@ -1989,7 +1989,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "52e16010fabc9ff669"
+      "scriptHash": "52e16010fabc9ff669112dea5393e386444bf78b22d02b734a85e650"
     },
     {
       "name": "LP ADA/CTV Order Validator",
@@ -2005,7 +2005,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "0b04026219be440652e8dac33a6bc1651f6c019686ded22d94a0f615e023d4ef74967fc841a5e77fe82e41a1b20f0c94de4e2d9d33a2aabe"
+      "scriptHash": "0b04026219be440652e8dac33a6bc1651f6c019686ded22d94a0f615"
     },
     {
       "name": "LP ADA/pADA Order Validator",
@@ -2021,7 +2021,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "26f57caae10ad769e3d7b06f4f2f515f03327b83f5a9c41ba1dd5bba799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "26f57caae10ad769e3d7b06f4f2f515f03327b83f5a9c41ba1dd5bba"
     },
     {
       "name": "LP ADA/ELV Order Validator",
@@ -2037,7 +2037,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "0dbc44e4790a5538b4f5787cef3dd768"
+      "scriptHash": "0dbc44e4790a5538b4f5787cef3dd768114b8bb0e34462e6909262fb"
     },
     {
       "name": "LP ADA/HERB Order Validator",
@@ -2053,7 +2053,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "b5708350056c00edd49313d309b59171ce7b5761c1862d3120a7fcd2e023d4ef74967fc841a5e77fe82e41a1b20f0c94de4e2d9d33a2aabe"
+      "scriptHash": "b5708350056c00edd49313d309b59171ce7b5761c1862d3120a7fcd2"
     },
     {
       "name": "LP ADA/VyFi_iUSD/VYFI_LP Order Validator",
@@ -2069,7 +2069,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "512b87bb0f21a44f228505891931acf61de3728007e8f9ddd9876ab0799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "512b87bb0f21a44f228505891931acf61de3728007e8f9ddd9876ab0"
     },
     {
       "name": "LP ADA/MCOS Order Validator",
@@ -2085,7 +2085,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "e09c446dcd50f2c4c91bd7fdd9bbc52e27fabd643c2f898f21a03614e023d4ef74967fc841a5e77fe82e41a1b20f0c94de4e2d9d33a2aabe"
+      "scriptHash": "e09c446dcd50f2c4c91bd7fdd9bbc52e27fabd643c2f898f21a03614"
     },
     {
       "name": "LP ADA/MARS Order Validator",
@@ -2101,7 +2101,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "18468d885962de1a88d784aca68d138794105f42bf977cd2dd95c291799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "18468d885962de1a88d784aca68d138794105f42bf977cd2dd95c291"
     },
     {
       "name": "LP ADA/COPI Order Validator",
@@ -2117,7 +2117,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "04321298f7df820d6f7550f5f3a5e5aa2fc1b0a646b351f663038684cf3d7cf9676a146d4274354b5ab330963198a5ec67899fa65beca309"
+      "scriptHash": "04321298f7df820d6f7550f5f3a5e5aa2fc1b0a646b351f663038684"
     },
     {
       "name": "LP ADA/LIFI Order Validator",
@@ -2133,7 +2133,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "ce52b5dbd06e2c0a86825c9102373ab4a0d95ad32415de28a97dc1ba799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "ce52b5dbd06e2c0a86825c9102373ab4a0d95ad32415de28a97dc1ba"
     },
     {
       "name": "LP ADA/MIRA Order Validator",
@@ -2149,7 +2149,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "76ba95d1fe62241ddc5891219b1c04dbd1edaf61f86ed7cbea013f24e023d4ef74967fc841a5e77fe82e41a1b20f0c94de4e2d9d33a2aabe"
+      "scriptHash": "76ba95d1fe62241ddc5891219b1c04dbd1edaf61f86ed7cbea013f24"
     },
     {
       "name": "LP ADA/VyFi_ADA/WMT_LP Order Validator",
@@ -2165,7 +2165,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "973d0e06e183ee8985c60f10dd332f3cfead08c3f89db13b524c5c18f7ddc9bc295ecc349f8afcae6db68f56c73df8f839c5614517b7424a"
+      "scriptHash": "973d0e06e183ee8985c60f10dd332f3cfead08c3f89db13b524c5c18"
     },
     {
       "name": "LP ADA/HOSKY Order Validator",
@@ -2181,7 +2181,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "eb4a971390c3dfde5008e7224cd1dbef61a17a92a2e4f14efabc9c39da7bb16ec2b7e99cec7fb07a225c60f862d43393bf1a7a5c9d863154"
+      "scriptHash": "eb4a971390c3dfde5008e7224cd1dbef61a17a92a2e4f14efabc9c39"
     },
     {
       "name": "LP ADA/PEPEBLUE Order Validator",
@@ -2197,7 +2197,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "002059fc75b038a85b33ba4fdfaced4bed1247fbad24c538dd45245ae023d4ef74967fc841a5e77fe82e41a1b20f0c94de4e2d9d33a2aabe"
+      "scriptHash": "002059fc75b038a85b33ba4fdfaced4bed1247fbad24c538dd45245a"
     },
     {
       "name": "LP VYFI/xVYFI Order Validator",
@@ -2229,7 +2229,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "8478d2a4b41296f15815e3a51afc3266b8696d44d053ce88b456cb51799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "8478d2a4b41296f15815e3a51afc3266b8696d44d053ce88b456cb51"
     },
     {
       "name": "LP ADA/VyFi_ADA/LENFI_LP Order Validator",
@@ -2245,7 +2245,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "ca8b8c8a8892051a67bedc131e77cc6b207adcd92f9a467c3fde5648f7ddc9bc295ecc349f8afcae6db68f56c73df8f839c5614517b7424a"
+      "scriptHash": "ca8b8c8a8892051a67bedc131e77cc6b207adcd92f9a467c3fde5648"
     },
     {
       "name": "LP ADA/WMT Order Validator",
@@ -2261,7 +2261,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "588fd5e0c8b1da40fd90b4e9878ecb1653fe3201958cd27fe1ee79cdda7bb16ec2b7e99cec7fb07a225c60f862d43393bf1a7a5c9d863154"
+      "scriptHash": "588fd5e0c8b1da40fd90b4e9878ecb1653fe3201958cd27fe1ee79cd"
     },
     {
       "name": "LP ADA/PAVIA Order Validator",
@@ -2277,7 +2277,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "0202f3494c22bd46cd172c2ca1f4b18fc1421b65a1ffd8244e26d5f7054604eced407065845e2d1be94724829a70a796d9abefd276c9df59"
+      "scriptHash": "0202f3494c22bd46cd172c2ca1f4b18fc1421b65a1ffd8244e26d5f7"
     },
     {
       "name": "LP ADA/BUKELE Order Validator",
@@ -2293,7 +2293,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "31b44d4b21a8a7129cfd17fbc133e6163753f8bc9f9d81fa24f1c80c799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "31b44d4b21a8a7129cfd17fbc133e6163753f8bc9f9d81fa24f1c80c"
     },
     {
       "name": "LP iUSD/VYFI Order Validator",
@@ -2325,7 +2325,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "9c8213ae0a95acea46b0312089d07809dc3f3c8af20694af39f12bf3da7bb16ec2b7e99cec7fb07a225c60f862d43393bf1a7a5c9d863154"
+      "scriptHash": "9c8213ae0a95acea46b0312089d07809dc3f3c8af20694af39f12bf3"
     },
     {
       "name": "LP ADA/XRAY Order Validator",
@@ -2341,7 +2341,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "a1c82e5eb2ae0007ba0c2f677e67070a3287022316369b7994f72104da7bb16ec2b7e99cec7fb07a225c60f862d43393bf1a7a5c9d863154"
+      "scriptHash": "a1c82e5eb2ae0007ba0c2f677e67070a3287022316369b7994f72104"
     },
     {
       "name": "LP ADA/SNEPE Order Validator",
@@ -2357,7 +2357,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "91b06ccb882e9ab1d9a6f4093d8d86721a47e3bca67c7894febf44e9799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "91b06ccb882e9ab1d9a6f4093d8d86721a47e3bca67c7894febf44e9"
     },
     {
       "name": "LP ADA/VNM Order Validator",
@@ -2373,7 +2373,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "851d0a472a7d07232b19e19a296e082067bf81a40824bc9121fe22e0e023d4ef74967fc841a5e77fe82e41a1b20f0c94de4e2d9d33a2aabe"
+      "scriptHash": "851d0a472a7d07232b19e19a296e082067bf81a40824bc9121fe22e0"
     },
     {
       "name": "LP ADA/VYFI Order Validator",
@@ -2389,7 +2389,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "730d04da38ffb7756072340338098c04413e75fedfb5669289e7c7bf4aee89758c07ed706429631ac4d6e59e617d59f522d9aa6ee50c54d0"
+      "scriptHash": "730d04da38ffb7756072340338098c04413e75fedfb5669289e7c7bf"
     },
     {
       "name": "LP ADA/RON Order Validator",
@@ -2405,7 +2405,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "d6c82b26af62797e27f6df9a9965d70ef5a7dd492c54"
+      "scriptHash": "d6c82b26af62797e27f6df9a9965d70ef5a7dd492c5411c78be3dd64"
     },
     {
       "name": "LP ADA/SICK Order Validator",
@@ -2421,7 +2421,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "c7666bf735ecea6d68571d72c8bba5bfbd560ad84b199af3701f1d2e799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "c7666bf735ecea6d68571d72c8bba5bfbd560ad84b199af3701f1d2e"
     },
     {
       "name": "LP ADA/SUMMON Order Validator",
@@ -2437,7 +2437,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "3608c47350e6be9facb7036fc32ed183396b6e75340ade4784c678c8b68"
+      "scriptHash": "3608c47350e6be9facb7036fc32ed183396b6e75340ade4784c678c8"
     },
     {
       "name": "LP ADA/iBTC Order Validator",
@@ -2453,7 +2453,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "f3518e04afbd1b0754c95961af103f506de634e732f9c58c18b573a4054604eced407065845e2d1be94724829a70a796d9abefd276c9df59"
+      "scriptHash": "f3518e04afbd1b0754c95961af103f506de634e732f9c58c18b573a4"
     },
     {
       "name": "LP ADA/vADA Order Validator",
@@ -2469,7 +2469,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "a447f9c8e6f07101a05789928c73ac76aea51b539325957e8ab7b3c8799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "a447f9c8e6f07101a05789928c73ac76aea51b539325957e8ab7b3c8"
     },
     {
       "name": "LP ADA/iUSD Order Validator",
@@ -2485,7 +2485,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "f7c76feffdd3422398178c6ccbc30f3935a07ffcd681df20778c1c106e279d536da8cd9b8d38fe39c45e974fc022b8cb9d25d433f5b4e6d5"
+      "scriptHash": "f7c76feffdd3422398178c6ccbc30f3935a07ffcd681df20778c1c10"
     },
     {
       "name": "LP ADA/RAD Order Validator",
@@ -2501,7 +2501,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "3148740f4f4bfa01a378098b70a4b5826ac9d44eba602e367f482547e023d4ef74967fc841a5e77fe82e41a1b20f0c94de4e2d9d33a2aabe"
+      "scriptHash": "3148740f4f4bfa01a378098b70a4b5826ac9d44eba602e367f482547"
     },
     {
       "name": "LP ADA/STRIP Order Validator",
@@ -2517,7 +2517,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "b8a8a2ba5db0a65aae131af066539ffe14c68d623986645a25990222b68"
+      "scriptHash": "b8a8a2ba5db0a65aae131af066539ffe14c68d623986645a25990222"
     },
     {
       "name": "LP ADA/SOCIETY Order Validator",
@@ -2533,7 +2533,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "b65cbd79852440adae77191d102237989ddc4a841944bbaf2cce2de9cf3d7cf9676a146d4274354b5ab330963198a5ec67899fa65beca309"
+      "scriptHash": "b65cbd79852440adae77191d102237989ddc4a841944bbaf2cce2de9"
     },
     {
       "name": "LP ADA/INDY Order Validator",
@@ -2549,7 +2549,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "2b009859e9508af6820d387ca9e208674d54485794b298ee7154"
+      "scriptHash": "2b009859e9508af6820d387ca9e208674d54485794b298ee715411ec"
     },
     {
       "name": "LP ADA/Charly Order Validator",
@@ -2565,7 +2565,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "507c8823bd315df87ec128b770354b7a8ecca9f16e6e8ed345d9e31c799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "507c8823bd315df87ec128b770354b7a8ecca9f16e6e8ed345d9e31c"
     },
     {
       "name": "LP ADA/VyFi_ADA/xVYFI_LP Order Validator",
@@ -2581,7 +2581,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "74157d54085eeb9afeb2b8b852166e18a1934716c3201869d54ee0f3f7ddc9bc295ecc349f8afcae6db68f56c73df8f839c5614517b7424a"
+      "scriptHash": "74157d54085eeb9afeb2b8b852166e18a1934716c3201869d54ee0f3"
     },
     {
       "name": "LP ADA/C4 Order Validator",
@@ -2597,7 +2597,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "6a704d8de5ee5357922957fea7d9999cd5a8523ca39ea759eb8ea255e023d4ef74967fc841a5e77fe82e41a1b20f0c94de4e2d9d33a2aabe"
+      "scriptHash": "6a704d8de5ee5357922957fea7d9999cd5a8523ca39ea759eb8ea255"
     },
     {
       "name": "LP ADA/MIN Order Validator",
@@ -2613,7 +2613,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "e93ec0e79a07e6b3f30c8c9f1e6f463e86363848f5a96d66a5c25ba8cf3d7cf9676a146d4274354b5ab330963198a5ec67899fa65beca309"
+      "scriptHash": "e93ec0e79a07e6b3f30c8c9f1e6f463e86363848f5a96d66a5c25ba8"
     },
     {
       "name": "LP ADA/CHRY Order Validator",
@@ -2629,7 +2629,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "6e7b610204610546b9931bd7da7edb946901bcd830f60"
+      "scriptHash": "6e7b610204610546b9931bd7da7edb946901bcd830f6011b7af83b2f"
     },
     {
       "name": "LP ADA/cNETA Order Validator",
@@ -2645,7 +2645,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "995699a23f27a24b15a3d9b4074268d5f74857df5b84cc20248e56cecf3d7cf9676a146d4274354b5ab330963198a5ec67899fa65beca309"
+      "scriptHash": "995699a23f27a24b15a3d9b4074268d5f74857df5b84cc20248e56ce"
     },
     {
       "name": "LP ADA/DING Order Validator",
@@ -2661,7 +2661,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "8d64c3096bf3d345007efdb513400a25f0"
+      "scriptHash": "8d64c3096bf3d345007efdb513400a25f01112b0fa5e959412ab06fd"
     },
     {
       "name": "LP ADA/SPICY Order Validator",
@@ -2677,7 +2677,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "d70fb28747813e8fc3c938f7d9adefbd13d96df29cb43fef990f6498799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "d70fb28747813e8fc3c938f7d9adefbd13d96df29cb43fef990f6498"
     },
     {
       "name": "LP DJED/iUSD Order Validator",
@@ -2709,7 +2709,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "65302bbfb05636b784c9b95abf6dd619931e7a5c3f3c7b6fb08d2faf27b00ad1c7f5f5b5b4a19ce23b8a9ff8f04a202a8bd0eb1546f2e18a"
+      "scriptHash": "65302bbfb05636b784c9b95abf6dd619931e7a5c3f3c7b6fb08d2faf"
     },
     {
       "name": "LP ADA/VyFi_ADA/VYFI_LP Order Validator",
@@ -2725,7 +2725,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "985cc28921723b58d0f500a943de34fdee439583e07b14024b146720f7ddc9bc295ecc349f8afcae6db68f56c73df8f839c5614517b7424a"
+      "scriptHash": "985cc28921723b58d0f500a943de34fdee439583e07b14024b146720"
     },
     {
       "name": "LP ADA/NINJAZ Order Validator",
@@ -2741,7 +2741,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "1fa29b887aadfa375d366033d2c972bcb8ae30f3479c9818c26901a7e023d4ef74967fc841a5e77fe82e41a1b20f0c94de4e2d9d33a2aabe"
+      "scriptHash": "1fa29b887aadfa375d366033d2c972bcb8ae30f3479c9818c26901a7"
     },
     {
       "name": "LP ADA/MELD Order Validator",
@@ -2757,7 +2757,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "c84d68a02183b68702a8fb5eaef0bc79feae8838956e07562ba0c48a27b00ad1c7f5f5b5b4a19ce23b8a9ff8f04a202a8bd0eb1546f2e18a"
+      "scriptHash": "c84d68a02183b68702a8fb5eaef0bc79feae8838956e07562ba0c48a"
     },
     {
       "name": "LP ADA/IAG Order Validator",
@@ -2773,7 +2773,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "55126301921898feca9c79517d5464b7e52bc4a7e0e6"
+      "scriptHash": "55126301921898feca9c79517d5464b7e52bc4a7e0e6110a46a27f08"
     },
     {
       "name": "LP ADA/DISCO Order Validator",
@@ -2789,7 +2789,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "b3754a152a8a6307aa69dea9916dec3c655d8db76cf63cd1732a15e9799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "b3754a152a8a6307aa69dea9916dec3c655d8db76cf63cd1732a15e9"
     },
     {
       "name": "LP ADA/DS Order Validator",
@@ -2805,7 +2805,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "d4cd0ccdf23c9293175ec68feb56886dc889693e5082a359c30adaf2799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "d4cd0ccdf23c9293175ec68feb56886dc889693e5082a359c30adaf2"
     },
     {
       "name": "LP ADA/GINKO Order Validator",
@@ -2821,7 +2821,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "c4d2ace6"
+      "scriptHash": "c4d2ace611db35552c5f06c5b4fdd2f561881179dd796e2443a22009"
     },
     {
       "name": "LP ADA/ATH Order Validator",
@@ -2837,7 +2837,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "0a268a2a66353cf2c739226e4787a4a28b7f30737a2a791b5e8b379b799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "0a268a2a66353cf2c739226e4787a4a28b7f30737a2a791b5e8b379b"
     },
     {
       "name": "LP ADA/RISK Order Validator",
@@ -2853,7 +2853,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "5746973325771f22ce520137f5d07f79ca181efa6e869cd3faece8ea799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "5746973325771f22ce520137f5d07f79ca181efa6e869cd3faece8ea"
     },
     {
       "name": "LP ADA/FLAC Order Validator",
@@ -2869,7 +2869,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "0f282ee6909d92b9d5bc3922a68f0fa445de1d793e2dada61ecf2eb9b68"
+      "scriptHash": "0f282ee6909d92b9d5bc3922a68f0fa445de1d793e2dada61ecf2eb9"
     },
     {
       "name": "LP ADA/CODE Order Validator",
@@ -2885,7 +2885,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "99604c123a24860e23ea023885f81b7846c4c2e98b13bf6c341244fd799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "99604c123a24860e23ea023885f81b7846c4c2e98b13bf6c341244fd"
     },
     {
       "name": "LP ADA/xVYFI Order Validator",
@@ -2901,7 +2901,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "e86bfc8ff2652acf6ae8c242c54a887449ac33a7e78ad256a0e54d8b4aee89758c07ed706429631ac4d6e59e617d59f522d9aa6ee50c54d0"
+      "scriptHash": "e86bfc8ff2652acf6ae8c242c54a887449ac33a7e78ad256a0e54d8b"
     },
     {
       "name": "LP ADA/iETH Order Validator",
@@ -2917,7 +2917,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "4e974d89"
+      "scriptHash": "4e974d891115a3dcb8059c88524b54385fd116425c99792aa7d1fd31"
     },
     {
       "name": "LP ADA/TANG Order Validator",
@@ -2933,7 +2933,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "dc47f"
+      "scriptHash": "dc47f1195fcb13e2b3e9c7b42df49425cf8d161cfe5a9fd4bdbff40a"
     },
     {
       "name": "LP ADA/CLAY Order Validator",
@@ -2949,7 +2949,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "c75567d529380d214d27f5ec34be02b7a9aacb9fc6207845bccd7b6d27b00ad1c7f5f5b5b4a19ce23b8a9ff8f04a202a8bd0eb1546f2e18a"
+      "scriptHash": "c75567d529380d214d27f5ec34be02b7a9aacb9fc6207845bccd7b6d"
     },
     {
       "name": "LP ADA/MNT Order Validator",
@@ -2965,7 +2965,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "7a6167bb1493b5e5b56de748790a75936d0ad80"
+      "scriptHash": "7a6167bb1493b5e5b56de748790a75936d0ad80114c0a49d48bfb448"
     },
     {
       "name": "LP ADA/CCCC Order Validator",
@@ -2981,7 +2981,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "03a0617f9d5ae4d0b1b156b6980c27e4726379065c0efd1934d13770799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "03a0617f9d5ae4d0b1b156b6980c27e4726379065c0efd1934d13770"
     },
     {
       "name": "LP ADA/EMP Order Validator",
@@ -2997,7 +2997,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "acaa4627d2389fed8f54b3d1752f5bc7f9"
+      "scriptHash": "acaa4627d2389fed8f54b3d1752f5bc7f911ef3b7f9ff003514e204d"
     },
     {
       "name": "LP ADA/CRDIDX Order Validator",
@@ -3013,7 +3013,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "666b12fe355dd8883bd32ad30ec60866726a3bcc240176bdf"
+      "scriptHash": "666b12fe355dd8883bd32ad30ec60866726a3bcc240176bdf1120ec0"
     },
     {
       "name": "LP ADA/FROGGIE Order Validator",
@@ -3029,7 +3029,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "560bf06243344635f7d921b985c09e3a39045083c9322e7314400a79799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "560bf06243344635f7d921b985c09e3a39045083c9322e7314400a79"
     },
     {
       "name": "LP ADA/Butter Order Validator",
@@ -3045,7 +3045,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "a0b622d8e19da4f6c601fec6e89ae7859b803a436fc769e5b494d549799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "a0b622d8e19da4f6c601fec6e89ae7859b803a436fc769e5b494d549"
     },
     {
       "name": "LP ADA/CHRLZ Order Validator",
@@ -3061,7 +3061,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "32ca7fe53af53ad1322e308dcf02172954721dc3ce07a0e9fa6f942f799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "32ca7fe53af53ad1322e308dcf02172954721dc3ce07a0e9fa6f942f"
     },
     {
       "name": "LP ADA/NEBULA Order Validator",
@@ -3077,7 +3077,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "b596e1937c07ef249d101af23488e3270a51e0557f1e842f272b6df7799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "b596e1937c07ef249d101af23488e3270a51e0557f1e842f272b6df7"
     },
     {
       "name": "LP ADA/FET Order Validator",
@@ -3093,7 +3093,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "35a1dab6d580d97dd30458247cbd741b429467b2f5041ece95f093c1799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "35a1dab6d580d97dd30458247cbd741b429467b2f5041ece95f093c1"
     },
     {
       "name": "LP ADA/GOKEY Order Validator",
@@ -3109,7 +3109,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "b84d7f71e9f44fd9d86368aebd7638e55059eaca5932f66e04ae3470e023d4ef74967fc841a5e77fe82e41a1b20f0c94de4e2d9d33a2aabe"
+      "scriptHash": "b84d7f71e9f44fd9d86368aebd7638e55059eaca5932f66e04ae3470"
     },
     {
       "name": "LP ADA/DJED Order Validator",
@@ -3125,7 +3125,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "99a917d3773ff635dacebc6908284ea402656ceab373eb3a5a007df427b00ad1c7f5f5b5b4a19ce23b8a9ff8f04a202a8bd0eb1546f2e18a"
+      "scriptHash": "99a917d3773ff635dacebc6908284ea402656ceab373eb3a5a007df4"
     },
     {
       "name": "LP ADA/AGIX Order Validator",
@@ -3141,7 +3141,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "468864e2b5f0f28092b1d87926"
+      "scriptHash": "468864e2b5f0f28092b1d879261185d36bacf448d3dffde45c2b78c0"
     },
     {
       "name": "LP ADA/NTX Order Validator",
@@ -3157,7 +3157,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "3752c1bb5e0b535e6ac0d369e7e57d21e95d4cf614a36a94ded781d4cf3d7cf9676a146d4274354b5ab330963198a5ec67899fa65beca309"
+      "scriptHash": "3752c1bb5e0b535e6ac0d369e7e57d21e95d4cf614a36a94ded781d4"
     },
     {
       "name": "LP ADA/C3 Order Validator",
@@ -3173,7 +3173,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "c1d0087c61e3a8f18501c5aa47051772fdc3d5325b98d3b0f8678619054604eced407065845e2d1be94724829a70a796d9abefd276c9df59"
+      "scriptHash": "c1d0087c61e3a8f18501c5aa47051772fdc3d5325b98d3b0f8678619"
     },
     {
       "name": "LP ADA/COCK Order Validator",
@@ -3189,7 +3189,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "4d9e23d32fec99bece8a7b2237f5e153151a3b200f3c48ce1dc4d29e799b5e08de8b765b4d783c5475d7c13a62503e190"
+      "scriptHash": "4d9e23d32fec99bece8a7b2237f5e153151a3b200f3c48ce1dc4d29e"
     },
     {
       "name": "LP ADA/$KWIC Order Validator",
@@ -3205,7 +3205,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "f3a45ca155b3e62acc80d858ea56fedb7aa590c4ac8"
+      "scriptHash": "f3a45ca155b3e62acc80d858ea56fedb7aa590c4ac811d6179035376"
     },
     {
       "name": "LP ADA/SHEN Order Validator",
@@ -3221,7 +3221,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "c"
+      "scriptHash": "c118e8085de87a2b5b40fca831bfc019054876367715dcd3e01d5ca6"
     },
     {
       "name": "LP ADA/SNEK Order Validator",
@@ -3237,7 +3237,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "232c10966ce4d8e67c2eae17bb57c2cf4854a57509a752fbb3c02bd1e023d4ef74967fc841a5e77fe82e41a1b20f0c94de4e2d9d33a2aabe"
+      "scriptHash": "232c10966ce4d8e67c2eae17bb57c2cf4854a57509a752fbb3c02bd1"
     },
     {
       "name": "LP ADA/MUTANT Order Validator",
@@ -3253,7 +3253,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
-      "scriptHash": "0c8e0edeca61e25f0712ae7bd326c9509843471b6ee441b19c4f3ed3e023d4ef74967fc841a5e77fe82e41a1b20f0c94de4e2d9d33a2aabe"
+      "scriptHash": "0c8e0edeca61e25f0712ae7bd326c9509843471b6ee441b19c4f3ed3"
     }
   ]
 }
