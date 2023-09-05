@@ -6,7 +6,7 @@
   "discord": "pfpmoji",
   "category": "NFT",
   "description": "Emoji PFP's for personalizing your ADA Handle. 1150 emojis, filtered from uncode 15, using twemoji.twitter.com v14 art.",
-  "contract": {
+  "contracts": {
     "name": "Minting Contract",
     "version": 1,
     "language": "NATIVESCRIPT",
