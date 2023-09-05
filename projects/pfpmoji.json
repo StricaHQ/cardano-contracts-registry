@@ -8,6 +8,8 @@
   "description": "Emoji PFP's for personalizing your ADA Handle. 1150 emojis, filtered from uncode 15, using twemoji.twitter.com v14 art.",
   "contract": {
     "name": "Minting Contract",
+    "version": 1,
+    "language": "NATIVESCRIPT",
     "scriptHash": "6d4f28ce65ac50bedfad08bf915e214e712e6ec81760185e6f6216db",
     "description": "pfpmoji minting is complete, contract is locked."
   }
