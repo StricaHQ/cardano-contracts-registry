@@ -35,7 +35,7 @@ const schema = Joi.object({
     "ORACLE"
   ),
   description: Joi.string().max(140),
-  contracts: Joi.array().items(contractSchema),
+  contracts: Joi.array().items(contractSchema).min(1),
 });
 
 const files = fs
