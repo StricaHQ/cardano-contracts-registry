@@ -1,0 +1,24 @@
+{
+    "projectName": "Dexhunter",
+    "labelPrefix": "Dexhunter",
+    "website": "https://dexhunter.io",
+    "twitter": "DexHunterIO",
+    "discord": "https://discord.com/invite/dexhunter",
+    "category": "DEFI",
+    "contracts": [
+      {
+        "name": "Stop Loss Contract",
+        "version": 1,
+        "language": "PLUTUS",
+        "languageVersion": 2,
+        "scriptHash": "6ec4acc3fbbd570ada625f24902777cec5d7a349fa0f3c7ba87b0cff",
+        "audit": [
+          {
+            "provider": "TxPipe",
+            "report": "https://storage.googleapis.com/dexhunter-papers/dexhunter_stop_loss_audit.pdf",
+            "date": "05-10-2023"
+          }
+        ]
+      }]
+  }
+  
