@@ -4,8 +4,8 @@
   "website": "https://tokenriot.io/",
   "twitter": "TokenRiot",
   "discord": "https://discord.gg/MHtE2zxpMN",
-  "category": "Marketplace",
-  "description": "WE ARE AN UNDERGROUND MOVEMENT. SPAWNED BY A REBELLION AGAINST BORING OLD IDEAS. WE DIDN'T COME TO SIT STILL AND BE QUIET. WE CAME TO START A RIOT.",
+  "category": "MARKETPLACE",
+  "description": "WE ARE AN UNDERGROUND MOVEMENT. WE DIDN'T COME TO SIT STILL AND BE QUIET. WE CAME TO START A RIOT.",
   "contracts": [
     {
       "name": "Data Contract",
@@ -14,7 +14,7 @@
       "languageVersion": 2,
       "scriptHash": "15b6269723881b5ab53ffaccbd142dbec125cde76abf7fc0ba70f534",
       "github": "https://github.com/TokenRiot/token-riot-contracts",
-      "description": "This contract holds data that is referenced by the other contracts."
+      "description": "This contract handles the data for the other contracts."
     },
     {
       "name": "Marketplace Contract",
