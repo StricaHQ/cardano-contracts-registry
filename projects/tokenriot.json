@@ -1,0 +1,56 @@
+{
+  "projectName": "Token Riot",
+  "labelPrefix": "Token Riot",
+  "website": "https://tokenriot.io/",
+  "twitter": "TokenRiot",
+  "discord": "https://discord.gg/MHtE2zxpMN",
+  "category": "MARKETPLACE",
+  "description": "WE ARE AN UNDERGROUND MOVEMENT. WE DIDN'T COME TO SIT STILL AND BE QUIET. WE CAME TO START A RIOT.",
+  "contracts": [
+    {
+      "name": "Data Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "15b6269723881b5ab53ffaccbd142dbec125cde76abf7fc0ba70f534",
+      "github": "https://github.com/TokenRiot/token-riot-contracts",
+      "description": "This contract handles the data for the other contracts."
+    },
+    {
+      "name": "Marketplace Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "387756888f0016dbcdf5a1d77816aca87e666002075cf2221a612cbf",
+      "github": "https://github.com/TokenRiot/token-riot-contracts",
+      "description": "This contract handles selling, offering, auctions, and timelocks."
+    },
+    {
+      "name": "Stake Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "53e88d1d58e65f18f8a6d5803643432f19b7235aeb1858f4e48eb3ab",
+      "github": "https://github.com/TokenRiot/token-riot-contracts",
+      "description": "This contract handles the staking of all funds."
+    },
+    {
+      "name": "Minting Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "e05558ba94a3cc7430fb003f5acc5e0892087fd99e585f49ab8b747d",
+      "github": "https://github.com/TokenRiot/token-riot-contracts",
+      "description": "This contract handles minting of CIP68 NFTs."
+    },
+    {
+      "name": "CIP68 Data Storage Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "ee81d6c710fe8d98783c1c1e3b5a620d989b10a042feae06a552349b",
+      "github": "https://github.com/TokenRiot/token-riot-contracts",
+      "description": "This contract handles the storage of the CIP68 NFT data."
+    }
+  ]
+}
