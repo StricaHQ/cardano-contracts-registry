@@ -1,0 +1,101 @@
+{
+  "projectName": "MuesliSwap",
+  "labelPrefix": "MuesliSwap",
+  "website": "https://muesliswap.com",
+  "twitter": "MuesliSwapTeam",
+  "discord": "https://discord.gg/VG7fWHvHSM",
+  "category": "DEX",
+  "description": "Premier Hybrid Decentralized Exchange on Cardano",
+  "contracts": [
+    {
+      "name": "Orderbook Contract",
+      "version": 0,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "ea184d0a7e640c4b5daa3f2cef851e75477729c2fd89f6ffbed7874c",
+      "github": "https://github.com/MuesliSwapTeam/muesliswap-cardano-contracts"
+    },
+    {
+      "name": "Orderbook Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "15b95fdaceeb507073a1bd198803373beeafbd82560fbf8abe9073ff",
+      "github": "https://github.com/MuesliSwapTeam/muesliswap-cardano-contracts"
+    },
+    {
+      "name": "Orderbook Contract",
+      "version": 2,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "f1ec90d33208778214cdc7fa90858ac5620253d99f84c10335928cab"
+    },
+    {
+      "name": "Orderbook Contract",
+      "version": 3,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "fea3f75281aa7f3f9f1a488030006cecd96290e9d3e7921a6b10c903"
+    },
+    {
+      "name": "Orderbook Contract",
+      "version": 4,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "00fb107bfbd51b3a5638867d3688e986ba38ff34fb738f5bd42b20d5"
+    },
+    {
+      "name": "AMM Pool Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "e8baad9288dc9abdc099b46f2ac006b1a82c7df4996e067f00c04e8d",
+      "github": "https://github.com/MuesliSwapTeam/muesliswap-cardano-pool-contracts"
+    },
+    {
+      "name": "AMM Pool Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "7045237d1eb0199c84dffe58fe6df7dc5d255eb4d418e4146d5721f8",
+      "github": "https://github.com/MuesliSwapTeam/muesliswap-cardano-pool-contracts"
+    },
+    {
+      "name": "Deposit Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "1b3c5a646a018e0cfbd40fba97518c8e955e5869f0afd4f8c568493e",
+      "github": "https://github.com/MuesliSwapTeam/muesliswap-cardano-pool-contracts"
+    },
+    {
+      "name": "Deposit Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "73ede893f547edbd25da6953fda33caacd01f44047922bf7c5ceb951",
+      "github": "https://github.com/MuesliSwapTeam/muesliswap-cardano-pool-contracts"
+    },
+    {
+      "name": "Concentrated Liquidity Pool Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "4136eeede1a49030451ee3a09d900959bafeafd9b536e59345ac780f"
+    },
+    {
+      "name": "Concentrated Liquidity Deposit Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "fc8fbdf64f25e04ec78052aa1a997b93867608951608fd74ca2fa83b"
+    },
+    {
+      "name": "Vault Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "0454355b392202e594ce74be2f5ff9ae64c6ac0fbb45cb676f8078a2"
+    }
+  ]
+}
