@@ -1,0 +1,42 @@
+{
+  "projectName": "Cerra",
+  "labelPrefix": "Cerra",
+  "website": "https://cerra.io",
+  "twitter": "Cerra_io",
+  "discord": "https://discord.gg/NAhSpAvg4a",
+  "category": "DEFI",
+  "contracts": [
+    {
+      "name": "P2P Lending Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "c5e72e9fc8254c30a639fddaedcaa793a88b35beab80f1652e071f44",
+      "github": "https://github.com/cerraio/lending-plutus"
+    },
+    {
+      "name": "Loan Factory MP",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "4f92ffbe81c57ce2ae2c46c862b0dec78a885220bec8e6d4d5a541d2",
+      "github": "https://github.com/cerraio/lending-plutus"
+    },
+    {
+      "name": "Lender MP",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "ba0b95b059c4ba8514db6bd24440eca4cc8330fd51356a27bcaeac2b",
+      "github": "https://github.com/cerraio/lending-plutus"
+    },
+    {
+      "name": "Borrower MP",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "7d199ae580c415d89825b1a12820235f90625ba843e99bfaebe9ec35",
+      "github": "https://github.com/cerraio/lending-plutus"
+    }
+  ]
+}
