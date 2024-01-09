@@ -110,6 +110,13 @@
       "language": "PLUTUS",
       "languageVersion": 2,
       "scriptHash": "b15a1a010843e8afb6f963b03d452be815b533dad0cd23d819c2d201"
+    },
+    {
+      "name": "MIN Staking Contract",
+      "version": 2,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "229863ae8694da16da002e889a1d19bcc82c581225b6dcca95fd69da"
     }
   ]
 }
