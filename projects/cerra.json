@@ -11,7 +11,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 2,
-      "scriptHash": "c5e72e9fc8254c30a639fddaedcaa793a88b35beab80f1652e071f44",
+      "scriptHash": "3cd3ddbabad7d3628642c10463a26c9fc45f2a0d2359c29f45f5a972",
       "github": "https://github.com/cerraio/lending-plutus"
     },
     {
@@ -19,7 +19,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 2,
-      "scriptHash": "4f92ffbe81c57ce2ae2c46c862b0dec78a885220bec8e6d4d5a541d2",
+      "scriptHash": "6bee4895e8b85a23cdfcb2da6c48d847914f6d9693465079c4bbc8cc",
       "github": "https://github.com/cerraio/lending-plutus"
     },
     {
@@ -27,7 +27,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 2,
-      "scriptHash": "ba0b95b059c4ba8514db6bd24440eca4cc8330fd51356a27bcaeac2b",
+      "scriptHash": "e2e221c33f40b378dda2bd204ea83df3b3b6b92c66327c7a31906983",
       "github": "https://github.com/cerraio/lending-plutus"
     },
     {
@@ -35,7 +35,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 2,
-      "scriptHash": "7d199ae580c415d89825b1a12820235f90625ba843e99bfaebe9ec35",
+      "scriptHash": "2a913261c73b76b7296b647ed2b8f0a3612b1b64f4a594fd3d890652",
       "github": "https://github.com/cerraio/lending-plutus"
     }
   ]
