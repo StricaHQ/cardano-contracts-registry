@@ -171,5 +171,5 @@ If your contract does not have a specific name, you can use a generic name eg. `
 }
 ```
 The resulting label is -> `Perfect Dex Contract`
-
+.code-coverage
 ---
