@@ -1,0 +1,38 @@
+{
+  "projectName": "Coinecta",
+  "labelPrefix": "Coinecta",
+  "website": "https://coinecta.fi",
+  "twitter": "CoinectaFinance",
+  "discord": "https://discord.gg/EuFdWye8yw",
+  "category": "DEFI",
+  "description": "Coinecta is a next-generation Cardano-based token launch platform, striving to be the launchpad of choice for innovative blockchain projects",
+  "contracts": [
+    {
+      "name": "Stake Proxy",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "eaeeb6716f41383b1fb53ec0c91d4fbb55aba4f23061b73cdf5d0b62",
+      "github": "https://github.com/coinecta/staking-contracts",
+      "description": "Contract helping the user stake their tokens correctly without contention worries"
+    },
+    {
+      "name": "Stake Pool",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "61b3802ce748ed1fdaad2d6c744b19f104285f7d318172a5d4f06a4e",
+      "github": "https://github.com/coinecta/staking-contracts",
+      "description": "Contract holding assets designated to be rewarded to stakers"
+    },
+    {
+      "name": "Time Lock",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "f5daa8c5b5fc29f5bdcd18931269f0763ca6a7e85fc83c4d2b0117d5",
+      "github": "https://github.com/coinecta/staking-contracts",
+      "description": "Contract locking assets until a certain time and a unique nft is used to unlock"
+    }
+  ]
+}
