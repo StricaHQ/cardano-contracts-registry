@@ -23,5 +23,13 @@
       "scriptHash": "f3e9624782fcc2d467f58c74f3dc005abac17a27ac20cc315981ebc6",
       "github": "https://github.com/STEAKProtocol/STEAKProtocol"
     },
+    {
+      "name": "Stakepool Batch Contract",
+      "version": 0,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "85ec3776557d2f8ec2d0b6bf9301d8b32b6c0abfa79542e68e51c170",
+      "github": "https://github.com/STEAKProtocol/STEAKProtocol"
+    }
   ]
 }
