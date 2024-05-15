@@ -4,7 +4,7 @@
   "website": "https://steakprotocol.com",
   "twitter": "steakTokenAda",
   "discord": "https://discord.com/invite/X3mXVukbnZ",
-  "category": "Oracle",
+  "category": "ORACLE",
   "description": "Powering sustainable random number oracles on Cardano.",
   "contracts": [
     {
