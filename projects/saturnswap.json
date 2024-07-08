@@ -1,0 +1,22 @@
+{
+    "projectName": "Saturn Swap",
+    "labelPrefix": "Saturn Swap",
+    "website": "https://saturnswap.io/",
+    "category": "DEX",
+    "contracts": [
+        {
+            "name": "Saturn Swap Contract",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 1,
+            "scriptHash": "1af84a9e697e1e7b042a0a06f061e88182feb9e9ada950b36a916bd5",
+            "audit": [
+                {
+                    "provider": "Cypher",
+                    "report": "https://saturn-swap.nyc3.cdn.digitaloceanspaces.com/Audits/Saturn%20Swap%20Audit.pdf",
+                    "date": "12-06-2024"
+                }
+            ]
+        }
+    ]
+}
