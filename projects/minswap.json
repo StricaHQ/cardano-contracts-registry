@@ -117,6 +117,86 @@
       "language": "PLUTUS",
       "languageVersion": 2,
       "scriptHash": "229863ae8694da16da002e889a1d19bcc82c581225b6dcca95fd69da"
+    },
+    {
+      "name": "V2 Authen Minting Policy",
+      "version": 2,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "f5808c2c990d86da54bfc97d89cee6efa20cd8461616359478d96b4c",
+      "github": "https://github.com/minswap/minswap-dex-v2",
+      "audit": [
+        {
+          "provider": "CertiK",
+          "report": "https://github.com/minswap/minswap-dex-v2/blob/main/audit-report/certik/audit-report.pdf",
+          "date": "01-03-2024"
+        },
+        {
+          "provider": "Anastasia Labs",
+          "report": "https://github.com/minswap/minswap-dex-v2/blob/main/audit-report/anastasia-labs/audit-report.pdf",
+          "date": "21-06-2024"
+        }
+      ]
+    },
+    {
+      "name": "V2 Factory Contract",
+      "version": 2,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "7bc5fbd41a95f561be84369631e0e35895efb0b73e0a7480bb9ed730",
+      "github": "https://github.com/minswap/minswap-dex-v2",
+      "audit": [
+        {
+          "provider": "CertiK",
+          "report": "https://github.com/minswap/minswap-dex-v2/blob/main/audit-report/certik/audit-report.pdf",
+          "date": "01-03-2024"
+        },
+        {
+          "provider": "Anastasia Labs",
+          "report": "https://github.com/minswap/minswap-dex-v2/blob/main/audit-report/anastasia-labs/audit-report.pdf",
+          "date": "21-06-2024"
+        }
+      ]
+    },
+    {
+      "name": "V2 Pool Contract",
+      "version": 2,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "ea07b733d932129c378af627436e7cbc2ef0bf96e0036bb51b3bde6b",
+      "github": "https://github.com/minswap/minswap-dex-v2",
+      "audit": [
+        {
+          "provider": "CertiK",
+          "report": "https://github.com/minswap/minswap-dex-v2/blob/main/audit-report/certik/audit-report.pdf",
+          "date": "01-03-2024"
+        },
+        {
+          "provider": "Anastasia Labs",
+          "report": "https://github.com/minswap/minswap-dex-v2/blob/main/audit-report/anastasia-labs/audit-report.pdf",
+          "date": "21-06-2024"
+        }
+      ]
+    },
+    {
+      "name": "V2 Order Contract",
+      "version": 2,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "c3e28c36c3447315ba5a56f33da6a6ddc1770a876a8d9f0cb3a97c4c",
+      "github": "https://github.com/minswap/minswap-dex-v2",
+      "audit": [
+        {
+          "provider": "CertiK",
+          "report": "https://github.com/minswap/minswap-dex-v2/blob/main/audit-report/certik/audit-report.pdf",
+          "date": "01-03-2024"
+        },
+        {
+          "provider": "Anastasia Labs",
+          "report": "https://github.com/minswap/minswap-dex-v2/blob/main/audit-report/anastasia-labs/audit-report.pdf",
+          "date": "21-06-2024"
+        }
+      ]
     }
   ]
 }
