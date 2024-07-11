@@ -11,7 +11,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 2,
-      "scriptHash": "c5e72e9fc8254c30a639fddaedcaa793a88b35beab80f1652e071f44",
+      "scriptHash": "fc7fa1cfd7b5b4db904bd2ab95df8ba8050b8fb7c7fc776cd214ec8f",
       "github": "https://github.com/cerraio/lending-plutus"
     },
     {
@@ -19,7 +19,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 2,
-      "scriptHash": "4f92ffbe81c57ce2ae2c46c862b0dec78a885220bec8e6d4d5a541d2",
+      "scriptHash": "8c220b94e8622eb3b5c8000cdeb40795f9dd5950c05b31c602626a1d",
       "github": "https://github.com/cerraio/lending-plutus"
     },
     {
@@ -27,7 +27,7 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 2,
-      "scriptHash": "ba0b95b059c4ba8514db6bd24440eca4cc8330fd51356a27bcaeac2b",
+      "scriptHash": "aab5e178051c0fefe20d4816afea177b0c21d3349e64a93fe9700e4a",
       "github": "https://github.com/cerraio/lending-plutus"
     },
     {
@@ -35,8 +35,43 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 2,
-      "scriptHash": "7d199ae580c415d89825b1a12820235f90625ba843e99bfaebe9ec35",
+      "scriptHash": "36ae1a5a1430fe3d5a22c7d591a7fcce5343095d85e79efe3f81d051",
       "github": "https://github.com/cerraio/lending-plutus"
+    },
+    {
+      "name": "AMM pool contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "3e7e7b0e2c5052a159d1f008d95eeb7c369c3a2122441599823b71f2"
+    },
+    {
+      "name": "AMM batcher contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "32a3548883f31e79c13b5403ab92d3d0c4e54e9230a3d72cb1fb4c24"
+    },
+    {
+      "name": "Pool Factory MP",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "2532b16fc0eeaf578da99728fbaaa105259c2164ae6738ea0ba51442"
+    },
+    {
+      "name": "LP MP",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "df629edc2fa5d501c827a4d6400a164a5612e1699069dd7f14d8ee23"
+    },
+    {
+      "name": "Pool NFT MP",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "ab2999f6dbb32833efb5f877305c3cfcf1f292e89f5364d07a47f841"
     }
   ]
 }
