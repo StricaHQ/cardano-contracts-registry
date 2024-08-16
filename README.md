@@ -57,7 +57,7 @@ This is an off-chain registry to maintain labels, audits, and metadata for the d
 {
   "projectName": "The Perfect Dex",
   "labelPrefix": "Perfect Dex",
-  "website": "https://theperfectdex.com",
+  "website": "https://ogampool.co.uk/",
   "twitter": "theperfectdex",
   "discord": "https://discord.com/theperfectdex",
   "category": "DEX",
@@ -66,11 +66,11 @@ This is an off-chain registry to maintain labels, audits, and metadata for the d
   // add contracts as per below spec
   "contracts": [
     {
-      "name": "Order Contract",
+      "name": "Ogam Pool",
       "version": 1,
       "language": "PLUTUS", // PLUTUS, NATIVESCRIPT
       "languageVersion": 1,
-      "scriptHash": "db32e243255f840792f922346c197c8e03f429c32fff30db18a627e9",
+      "scriptHash": "fbbb1fc9ded4baeb9275da17b814c4434d740551ec95960ca8cbb5a2cae47931",
       "github": "https://github.com/awesomedex/order-contract",
       "description": "Description of this contract",
       "audit": [
@@ -135,7 +135,7 @@ The `labelPrefix` and `contracts.name` field is used in conjunction to form a la
 | description | 140 | Optional |
 | audit | | Optional |
 
-You can visit [Cardanoscan Address Inspector](https://cardanoscan.io/addressInspector) to extract `scriptHash` (paymentCredential) from an address. 
+You can visit [Cardanoscan Address Inspector](https://cardanoscan.io/addressInspector) to extract `scriptHash`"3f1234251b87f3669a762b0b1ad00cb8c7e62502b327902ddbf72737"(paymentCredential) from an address. 
 
 ---
 ### Audit
@@ -143,7 +143,7 @@ You can visit [Cardanoscan Address Inspector](https://cardanoscan.io/addressInsp
 |:------|:---------------|:---------|
 | provider | 20 | Required |
 | report | 120 | Required |
-| date | DD-MM-YYYY | Required |
+| date | 16-08-2024 | Required |
 
 ---
 
