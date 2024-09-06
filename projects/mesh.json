@@ -9,7 +9,7 @@
   "description": "Mesh is an open source library that provides everything you need to build Web3 apps.",
   "contracts": [
     {
-      "name": "Escrow",
+      "name": "Escrow (mesh)",
       "description" : "Secure exchange of assets between two parties",
       "version": 2,
       "language": "PLUTUS",
@@ -18,7 +18,7 @@
       "github": "https://github.com/MeshJS/mesh/tree/main/packages/mesh-contract/src/escrow"
     },
     {
-      "name": "Escrow",
+      "name": "Escrow (mesh)",
       "description" : "Secure exchange of assets between two parties",
       "version": 1,
       "language": "PLUTUS",
@@ -27,7 +27,7 @@
       "github": "https://github.com/MeshJS/mesh/tree/main/packages/mesh-contract/src/escrow"
     },
     {
-      "name": "Giftcard",
+      "name": "Giftcard (mesh)",
       "description" : "Create a giftcard with native tokens",
       "version": 2,
       "language": "PLUTUS",
@@ -36,7 +36,7 @@
       "github": "https://github.com/MeshJS/mesh/tree/main/packages/mesh-contract/src/giftcard"
     },
     {
-      "name": "Giftcard",
+      "name": "Giftcard (mesh)",
       "description" : "Create a giftcard with native tokens",
       "version": 1,
       "language": "PLUTUS",
@@ -45,7 +45,7 @@
       "github": "https://github.com/MeshJS/mesh/tree/main/packages/mesh-contract/src/giftcard"
     },
     {
-      "name": "Marketplace",
+      "name": "Marketplace (mesh)",
       "description" : "Build a NFT marketplace to buy and sell NFTs",
       "version": 2,
       "language": "PLUTUS",
@@ -54,7 +54,7 @@
       "github": "https://github.com/MeshJS/mesh/tree/main/packages/mesh-contract/src/marketplace"
     },
     {
-      "name": "Marketplace",
+      "name": "Marketplace (mesh)",
       "description" : "Build a NFT marketplace to buy and sell NFTs",
       "version": 1,
       "language": "PLUTUS",
@@ -63,7 +63,7 @@
       "github": "https://github.com/MeshJS/mesh/tree/main/packages/mesh-contract/src/marketplace"
     },
     {
-      "name": "Payment Splitter",
+      "name": "Payment Splitter (mesh)",
       "description" : "Split payouts equally among a list of specified payees",
       "version": 2,
       "language": "PLUTUS",
@@ -72,7 +72,7 @@
       "github": "https://github.com/MeshJS/mesh/tree/main/packages/mesh-contract/src/payment-splitter"
     },
     {
-      "name": "Payment Splitter",
+      "name": "Payment Splitter (mesh)",
       "description" : "Split payouts equally among a list of specified payees",
       "version": 1,
       "language": "PLUTUS",
@@ -81,7 +81,7 @@
       "github": "https://github.com/MeshJS/mesh/tree/main/packages/mesh-contract/src/payment-splitter"
     },
     {
-      "name": "Swap",
+      "name": "Swap (mesh)",
       "description" : "Swap contract facilitates the exchange of assets between two parties",
       "version": 2,
       "language": "PLUTUS",
@@ -90,7 +90,7 @@
       "github": "https://github.com/MeshJS/mesh/tree/main/packages/mesh-contract/src/swap"
     },
     {
-      "name": "Swap",
+      "name": "Swap (mesh)",
       "description" : "Swap contract facilitates the exchange of assets between two parties",
       "version": 1,
       "language": "PLUTUS",
@@ -99,7 +99,7 @@
       "github": "https://github.com/MeshJS/mesh/tree/main/packages/mesh-contract/src/swap"
     },
     {
-      "name": "Vesting",
+      "name": "Vesting (mesh)",
       "description" : "Locks up funds for a period of time and allows the owner to withdraw the funds after the lockup period",
       "version": 2,
       "language": "PLUTUS",
@@ -108,7 +108,7 @@
       "github": "https://github.com/MeshJS/mesh/tree/main/packages/mesh-contract/src/vesting"
     },
     {
-      "name": "Vesting",
+      "name": "Vesting (mesh)",
       "description" : "Locks up funds for a period of time and allows the owner to withdraw the funds after the lockup period",
       "version": 1,
       "language": "PLUTUS",
