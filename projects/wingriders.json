@@ -11,6 +11,13 @@
       "version": 1,
       "language": "PLUTUS",
       "languageVersion": 1,
+      "scriptHash": "9fd47e0d578fb539b9ec7e016dc5ee25844110a96712d55989b0751b"
+    },
+    {
+      "name": "Shares Lock",
+      "version": 2,
+      "language": "PLUTUS",
+      "languageVersion": 1,
       "scriptHash": "0237cc313756ebb5bcfc2728f7bdc6a8047b471220a305aa373b278a"
     },
     {
