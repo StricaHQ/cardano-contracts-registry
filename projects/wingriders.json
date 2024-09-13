@@ -1,0 +1,94 @@
+{
+  "projectName": "WingRiders",
+  "labelPrefix": "WingRiders",
+  "website": "https://wingriders.com",
+  "twitter": "wingriderscom",
+  "discord": "https://discord.gg/t7CdyhK8JA",
+  "category": "DEX",
+  "contracts": [
+    {
+      "name": "Shares Lock",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "0237cc313756ebb5bcfc2728f7bdc6a8047b471220a305aa373b278a"
+    },
+    {
+      "name": "V1: Constant Product Factory",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "e9823c2d96ffc29ba6dd695fd85f784aa081bdcc01f92bb43242e752"
+    },
+    {
+      "name": "V1: Constant Product Pool",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "e6c90a5923713af5786963dee0fdffd830ca7e0c86a041d9e5833e91"
+    },
+    {
+      "name": "V1: Constant Product Request",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "86ae9eebd8b97944a45201e4aec1330a72291af2d071644bba015959"
+    },
+    {
+      "name": "V1: Stableswap Factory",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "8a1e80a96df218b7fa75f3cd7752aed5425da08387683256ca079b4f"
+    },
+    {
+      "name": "V1: Stableswap Pool",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "9868d58fbfcc2b14cfc7d9eec0b765e7e6fc4e950c9c2748ace9ce61"
+    },
+    {
+      "name": "V1: Stableswap Request",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "c5e0385012d5f010b1dc7ab42ba632944052de232051ec6ce3bfd72e"
+    },
+    {
+      "name": "V2: Factory",
+      "version": 2,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "c57b588ebda735d49008d47afde48198ec37062d6ceb758803515013"
+    },
+    {
+      "name": "V2: Constant Product Pool",
+      "version": 2,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "af97793b8702f381976cec83e303e9ce17781458c73c4bb16fe02b83"
+    },
+    {
+      "name": "V2: Constant Product Request",
+      "version": 2,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "c134d839a64a5dfb9b155869ef3f34280751a622f69958baa8ffd29c"
+    },
+    {
+      "name": "V2: Stableswap Pool",
+      "version": 2,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "946ae228430f2fc64aa8b3acb910ee27e9b3e47aa8f925fac27834a1"
+    },
+    {
+      "name": "V2: Stableswap Request",
+      "version": 2,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "23680ea6701b56f2c12ae79d8af94fd36f509b7b007029c7ce114840"
+    }
+  ]
+}
