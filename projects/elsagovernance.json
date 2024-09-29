@@ -1,0 +1,9 @@
+{
+  "projectName": "Elsa Governance",
+  "labelPrefix": "Elsa",
+  "website": "https://github.com/elsa-workflows",
+  "twitter": "",
+  "discord": "https://discord.gg/vdfAx42ety",
+  "category": "TOKEN",
+  "description": "Elsa Workflows is an open-source .NET Core project enabling developers to integrate workflow engine capabilities into their applications. The DAO governs the project by proposing, voting on, and funding roadmap items from its treasury."
+}
