@@ -1,0 +1,66 @@
+{
+  "projectName": "Project NEWM's Marketplace",
+  "labelPrefix": "NEWM's Market",
+  "website": "https://marketplace.newm.io/",
+  "twitter": "projectNEWM",
+  "category": "MARKETPLACE",
+  "description": "The NEWM Marketplace for streaming royalty rights tokens.",
+  "contracts": [
+    {
+      "name": "NEWM Monster Band Lock Up",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "be670fd506fe343c238b8c3357511b863c8c2173f49a0b56aba1ab24"
+    },
+    {
+      "name": "Batcher Certificate",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "1cfcfe58e3462df9a3ab474a66536ef48f5acc2c1e7ad2abb294446a"
+    },
+    {
+      "name": "Marketplace Pointer",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "26c0f8e2d3be37de297fa57c48820fcb24c7b09aebe280430cef9d87"
+    },
+    {
+      "name": "Marketplace Queue",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "fd4572b20a1d76e7dc0aaa548579bacc2b318a4862a7e12f94b7e76d"
+    },
+    {
+      "name": "Data Reference",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "7c7487bca5af9814f10b9e8239b9efa46f20f87edd075f78d62abbb7"
+    },
+    {
+      "name": "Marketplace Sale",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "bf5ba087d428e870a809c3e88fa8de019e01f5f31582c0e4abcb42bd"
+    },
+    {
+      "name": "Staking/DRep/Voting",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "db7245ff4fe23633e2c10ef62374ca6b64efd80d31fc3f7c431386e0"
+    },
+    {
+      "name": "Marketplace Vault",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "b8193d5acd8a0a6aa1f06ed1835648bc76e458c6c4621c543b769a3e"
+    }
+  ]
+}
