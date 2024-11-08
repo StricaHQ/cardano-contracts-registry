@@ -121,8 +121,8 @@ The `labelPrefix` and `contracts.name` field is used in conjunction to form a la
 | projectName | 30             | Required |
 | labelPrefix | 16             | Required |
 | website     | 35             | Optional |
-| twitter     | 16             | Optional |
-| discord     | 40             | Optional |
+| twitter     | 100            | Optional |
+| discord     | 100            | Optional |
 | github      | 100            | Optional |
 | description | 140            | Optional |
 
