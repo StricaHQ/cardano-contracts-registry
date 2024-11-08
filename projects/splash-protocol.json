@@ -1,0 +1,70 @@
+{
+  "projectName": "Splash Protocol",
+  "labelPrefix": "Splash Protocol",
+  "website": "https://www.splash.trade",
+  "twitter": "splashprotocol",
+  "discord": "https://discord.com/invite/splashprotocol",
+  "category": "DEX",
+  "contracts": [
+    {
+      "name": "Deposit (Weighted Pool)",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "99b82cb994dc2af44c12cb5daf5ad274211622800467af5bd8c32352",
+      "github": "https://github.com/splashprotocol/splash-core"
+    },
+    {
+      "name": "Redeem (Weighted Pool)",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "b8a2bba77a5b50ac297032a7b0261f375a269ee3623d65172b384ba7",
+      "github": "https://github.com/splashprotocol/splash-core"
+    },
+    {
+      "name": "Deposit (Constant Function Pool)",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "680f52841c06f32cecdcdeff2c20ce6b70c2a5249b94d1a2b4eff294",
+      "github": "https://github.com/splashprotocol/splash-core"
+    }
+  ,
+    {
+      "name": "Redeem (Constant Function Pool)",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "87f504b07add9e1d74ae102f53ab7f9ff2456dee897a43d8e27b348b",
+      "github": "https://github.com/splashprotocol/splash-core"
+    }
+  ,
+    {
+      "name": "Deposit (Stableswap Pool)",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "3771abe5d236a51ace13c738885e29845fd5ef9ee90ed0efb420d275",
+      "github": "https://github.com/splashprotocol/splash-core"
+    }
+  ,
+    {
+      "name": "Redeem (Stableswap Pool)",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "4e7acc95834f1b86c54e9b9e38f3c1f72f848a52eb994da50d5f825f",
+      "github": "https://github.com/splashprotocol/splash-core"
+    }
+  ,
+    {
+      "name": "Order Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "464eeee89f05aff787d40045af2a40a83fd96c513197d32fbc54ff02",
+      "github": "https://github.com/splashprotocol/splash-core"
+    }
+  ]
+}
