@@ -23,8 +23,8 @@ const schema = Joi.object({
   labelPrefix: Joi.string().max(16).required(),
   github: Joi.string().max(100),
   website: Joi.string().max(35),
-  twitter: Joi.string().max(16),
-  discord: Joi.string().max(40),
+  twitter: Joi.string().max(100),
+  discord: Joi.string().max(100),
   category: Joi.string().valid(
     "DEX",
     "DEFI",
