@@ -1,0 +1,29 @@
+{
+  "projectName": "Seedelf",
+  "labelPrefix": "Seedelf",
+  "website": "https://www.logicalmechanism.io/",
+  "twitter": "LogicalMechnism",
+  "discord": "https://discord.gg/r8VwV2jGBy",
+  "category": "TOOLS",
+  "description": "Seedelf: A Cardano Stealth Wallet",
+  "contracts": [
+    {
+      "name": "Minter",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "84967d911e1a10d5b4a38441879f374a07f340945bcf9e7697485255",
+      "github": "https://github.com/logical-mechanism/Seedelf-Wallet/tree/main/seedelf-contracts",
+      "description": "This contract handles the minting of seedelf tokens."
+    },
+    {
+      "name": "Wallet",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "94bca9c099e84ffd90d150316bb44c31a78702239076a0a80ea4a469",
+      "github": "https://github.com/logical-mechanism/Seedelf-Wallet/tree/main/seedelf-contracts",
+      "description": "This contract handles the smart wallet interactions."
+    }
+  ]
+}
