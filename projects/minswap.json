@@ -197,6 +197,13 @@
           "date": "21-06-2024"
         }
       ]
+    },
+    {
+      "name": "Non-Custodial Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "6563d77a4da81a91831c68d192a3eeefb0340f1341518aae7ce2d48e"
     }
   ]
 }
