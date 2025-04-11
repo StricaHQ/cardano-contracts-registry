@@ -1,0 +1,43 @@
+{
+    "projectName": "Iagon",
+    "labelPrefix": "Iagon",
+    "website": "https://iagon.com/",
+    "twitter": "IagonOfficial",
+    "discord": "https://discord.com/invite/TCS23VWuWm",
+    "category": "MARKETPLACE",
+    "description": "A decentralized marketplace for storage and computing resources.",
+    "contracts": [
+      {
+        "name": "Data Contract",
+        "version": 1,
+        "language": "PLUTUS",
+        "languageVersion": 3,
+        "scriptHash": "1fa8c9199601924c312fb4f206ff632ca575b27f4f97dd02d9a9ae56",
+        "description": "This contract handles the data for the other contracts."
+      },
+      {
+        "name": "Node Contract",
+        "version": 1,
+        "language": "PLUTUS",
+        "languageVersion": 3,
+        "scriptHash": "ac35ee89c26b1e582771ed05af54b67fd7717bbaebd7f722fbf430d6",
+        "description": "This contract handles node registration."
+      },
+      {
+        "name": "Delegation Contract",
+        "version": 1,
+        "language": "PLUTUS",
+        "languageVersion": 3,
+        "scriptHash": "faecb80eee6cadf9dac5184263ed4d164b38fe71d4f6f55e8f6b0da0",
+        "description": "This contract handles delegation registration."
+      },
+      {
+        "name": "Order Contract",
+        "version": 1,
+        "language": "PLUTUS",
+        "languageVersion": 3,
+        "scriptHash": "a3959153cfd23daa1271b520bdf27dc7cbeab6ef24770fc72e458bd8",
+        "description": "This contract handles orders for the marketplace."
+      }
+    ]
+  }
