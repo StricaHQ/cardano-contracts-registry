@@ -1,0 +1,17 @@
+{
+  "projectName": "aigacsystems",
+  "labelPrefix": "aigacsystems",
+  "website": "https://ai.gac.systems",
+  "category": "GAMING",
+  "contracts": [
+     {
+      "name": "The Auction at Infinity ",
+      "description" : "Bid on art. Obtain macaroni. For entertainment purposes only.",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "8ba73b90738367a760c75719d297627be7f11d893e0d12b5c5c157a7",
+      "github": "https://github.com/source-gac-systems/The-Auction-At-Infinity-Plutus-Contract"
+    }
+  ]
+}
