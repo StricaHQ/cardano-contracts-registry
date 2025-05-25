@@ -1,0 +1,291 @@
+{
+    "projectName": "CSWAP",
+    "labelPrefix": "CSWAP",
+    "website": "https://cswap.fi",
+    "twitter": "CswapDEX",
+    "discord": "https://discord.com/invite/DZxfjyHbY4",
+    "category": "DEFI",
+    "description": "A progressive DEX for the Cardano Ecosystem, merging next generation DEX capabilities with NFTfi",
+    "contracts": [
+        {
+            "name": "Order Contract",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "da5b47aed3955c9132ee087796fa3b58a1ba6173fa31a7bc29e56d4e"
+        },
+        {
+            "name": "Pool Contract",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "ed97e0a1394724bb7cb94f20acf627abc253694c92b88bf8fb4b7f6f"
+        },
+        {
+            "name": "C-LP: ADA x USDM Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "16c66059d8ed65d35a64b229e34bfcd01899de45379a35c3aa74c7a5"
+        },
+        {
+            "name": "C-LP: ADA x SNEK Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "8e50527b8cc1763348b393dca349bf04385ee12d4568afa0c8a457a9"
+        },
+        {
+            "name": "C-LP: ADA x CSWAP Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "a3437274f93dfdf36e949a4d9533e964aebde7a1cd229baeca7bdafa"
+        },
+        {
+            "name": "C-LP: ADA x IAG Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "a00d48eff61d8cfd86b5795d0b15015b84a33f139f22e7c8e3005c34"
+        },
+        {
+            "name": "C-LP: ADA x LQ Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "94f29ef62b5e06d3512802ad433ed01ce6cfc96661692f663e96de9c"
+        },
+        {
+            "name": "C-LP: ADA x HOSKY Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "a6cac126e9359013523291c91304629e2b7da3f08f2e56c2fca0797d"
+        },
+        {
+            "name": "C-LP: ADA x HUNT Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "3a62e392d391502c5413d083f77dfa5c180da787f3aef9eb588a2d8a"
+        },
+        {
+            "name": "C-LP: ADA x USDA Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "b0eeb31d98451d0e843a3a488d8bd65d5e3a91370f6c95079d99bf08"
+        },
+        {
+            "name": "C-LP: ADA x TITAN Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "0868e467c9693a3f4b8d93500ab79a755b9a9def3e38cc675a0808c5"
+        },
+        {
+            "name": "C-LP: ADA x XER Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "354b8d452dcf7900011f6709437265032c7c99504a214f87cc947a26"
+        },
+        {
+            "name": "C-LP: ADA x TOKE Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "695cbfeaeee5d911d3786cd6b1d553eb8f73b6a5a20a189b09c00e15"
+        },
+        {
+            "name": "C-LP: ADA x BANK Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "6c65cce5f0fef7ee8649e7c323ccbb7721a342843ed1760026853ab9"
+        },
+        {
+            "name": "C-LP: ADA x RISK Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "d60f3d44a21ee925c4fb7416247917b8572a27da4c4d9f8aa1332206"
+        },
+        {
+            "name": "C-LP: ADA x Nike Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "1372dcec56364a1890704d25010fa46a9fde65d47e027176c359c147"
+        },
+        {
+            "name": "C-LP: ADA x BTN Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "2c6c0cf80eb68ea69cf8cf36b3719348171defe2f7ba61be330bb6c6"
+        },
+        {
+            "name": "C-LP: ADA x Squeak Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "007efebf8a8935449d56c8bd43c80526ca1ed742d0a1d9d9493ea42b"
+        },
+        {
+            "name": "C-LP: ADA x Nation Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "da424e8bd9cb40a0876bcfef18916c4bb00074c868814fb183018635"
+        },
+        {
+            "name": "C-LP: ADA x STRIKE Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "83911d2a8db0a1c307f025c873359a3f2f0c580d5572e3c01f846f6f"
+        },
+        {
+            "name": "C-LP: ADA x WorldMobileTokenX Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "c3c6686be48991209904f9652d9e6ba6e2c946429c5d68d0a3dd5792"
+        },
+        {
+            "name": "C-LP: ADA x iUSD Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "667f1376eb9e05eab498ed584f3ce1ec60900af7b5d36d2a61cd92c9"
+        },
+        {
+            "name": "C-LP: ADA x DjedMicroUSD Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "a197a89a4fa110ddb0bb817a2d7cd8cb20aa0eed05e04978e0980a48"
+        },
+        {
+            "name": "C-LP: ADA x Talos Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "9a7bd045d5e30327546978105c8090e9081417cca350ef768741b6ff"
+        },
+        {
+            "name": "C-LP: ADA x AADA Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "48c6bb759f0cfd382208c740c85ceafef1f2654d88d5e38b144fb81c"
+        },
+        {
+            "name": "C-LP: ADA x INDY Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "75fc97a278e8cffaf9ab3d39091ad8adad75def27dd37ab292dbbc17"
+        },
+        {
+            "name": "C-LP: ADA x FLDT Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "5c0ab201ed0c4628f888fb42d29d68435c9c525c63142181d225e5ab"
+        },
+        {
+            "name": "C-LP: ADA x BODEGA Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "415afd52d8c899ceb59caf4740647b14f4ed82bba222fb4c07751dbf"
+        },
+        {
+            "name": "C-LP: ADA x ROLL Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "ea44ac20a8b4ecd36e38856fd71e04475feb4b510e0395b0cd2c654c"
+        },
+        {
+            "name": "C-LP: ADA x ZEKE Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "f4a14807c5d2f054da08e84d8c6971efd98ebde8fff14fe604a8719c"
+        },
+        {
+            "name": "C-LP: ADA x AGIX Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "5d26e3aea878995dbca6d15596a8a7efa761b66d7d39cb00e92bddb5"
+        },
+        {
+            "name": "C-LP: ADA x FREN Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "f17601d721a675091108f222f5813d84e25e4d23ac93a1b309bfa6bd"
+        },
+        {
+            "name": "C-LP: ADA x ANGELS Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "48d5c66c1c29a86bb6e4f97fe418285eac39da91abac1c837fa88c86"
+        },
+        {
+            "name": "C-LP: ADA x VYFI Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "3b2701c553afb6129a9de800f923014b3a1c797d6fbb3dce3334004e"
+        },
+        {
+            "name": "C-LP: ADA x SMOKES Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "38c7b6b40102bcf70c9d9dcf8c3f67f1a301dd0709d2b39d87da2215"
+        },
+        {
+            "name": "C-LP: ADA x KWIC Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "00be0f573c07765ece354da722185044e48db3065ccb807c34570c4d"
+        },
+        {
+            "name": "C-LP: ADA x AWOO Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "61f15ada01a4b77252547f708c0ef9bc59d30488f4b05c09da48cd1d"
+        },
+        {
+            "name": "C-LP: ADA x OMNI Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "06b2529f7ac55d9f94a8a64de245fe87996c2ff1949c14797fd38c44"
+        },
+        {
+            "name": "C-LP: ADA x Cardano Maxi Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "1f82c2bdfa2e02acf2d24773c8648fa4a4e0d2b186c5e280526bfc69"
+        },
+        {
+            "name": "C-LP: ADA x SUGAR BUSH Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "e154abc5261d94581a78a6be7006692206415629a855d26b5e9a1a9a"
+        }
+    ]
+}
