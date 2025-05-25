@@ -22,6 +22,34 @@
             "scriptHash": "ed97e0a1394724bb7cb94f20acf627abc253694c92b88bf8fb4b7f6f"
         },
         {
+            "name": "Staking Contract",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "1b26cc41dcd8530a4ba9ae584922b5957c365583a25eda8770597a6b"
+        },
+        {
+            "name": "Farming Contract",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "4c93a9ae9ebbdea562d367287ef6471e162cc3ba41030367bd55cf71"
+        },
+        {
+            "name": "Token Upgrade Contract",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "d547c9e1e26e4bc80b56eb979dda7a011280933cb2784f74b584ec8f"
+        },
+        {
+            "name": "CSWAP LP Claim Contract",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "2b5cebef0f9a56d923695af04b09a86f3e9488814e72b78cecd447ea"
+        },
+        {
             "name": "C-LP: ADA x USDM Validator",
             "version": 1,
             "language": "PLUTUS",
