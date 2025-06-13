@@ -314,6 +314,55 @@
             "language": "PLUTUS",
             "languageVersion": 3,
             "scriptHash": "e154abc5261d94581a78a6be7006692206415629a855d26b5e9a1a9a"
-        }
+        },
+        {
+            "name": "C-LP: ADA x BOOK Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "c7356932be555d23958cea0b5284d8bb1bbc6dfe18a6adfbbece7006"
+        },
+        {
+            "name": "C-LP: ADA x NVL Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "1019c1b240938428293bcf0f59ca84b5d11681bb44b956006ed6096b"
+        },
+        {
+            "name": "C-LP: ADA x BBSNEK Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "e4eb1f1277d8d4a909263871fccf040728e49bb95db9e29a178bbb77"
+        },
+        {
+            "name": "C-LP: ADA x CHAD Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "38c35e7ebd028880927153ba394b019faf253d39b0ba0c24461beb89"
+        },
+        {
+            "name": "C-LP: ADA x PALM Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "da9742865ca6db21c117770f382fdb903598dc03fd4e3aceb4625eb1"
+        },
+        {
+            "name": "C-LP: ADA x COPI Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "3976f3dac48a78086cd6fef474060ba909a131805156857b675860da"
+        },
+        {
+            "name": "C-LP: ADA x DEDI Validator",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "28a37ea1cc0569ce138fa5a2e4549396a74f227ec92d2e1acd5f0207"
+        }        
     ]
 }
