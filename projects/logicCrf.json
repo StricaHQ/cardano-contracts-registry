@@ -1,0 +1,37 @@
+{
+  "projectName": "LoGIC CRF",
+  "labelPrefix": "LoGIC CRF",
+  "website": "https://github.com/logic-crf",
+  "github": "https://github.com/logic-crf/logic_crf_api",
+  "category": "REALFI",
+  "description": "Credit Reference File API recording loan lifecycle events on Cardano blockchain",
+  "contracts": [
+    {
+      "name": "DID Registry",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "b2d896e865ebc2b049044edf6e1048377475b8bb98f41e9a32245976",
+      "github": "https://github.com/logic-crf/logic_crf_api/blob/main/contracts/validators/did_registry.ak",
+      "description": "DID lifecycle validator - register, update, and revoke decentralized identifiers"
+    },
+    {
+      "name": "Loan Validator",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "bb6e8da0b9280eff217e0a4e43fcd731ef995694bbdcab205f9b6776",
+      "github": "https://github.com/logic-crf/logic_crf_api/blob/main/contracts/validators/loan_validator.ak",
+      "description": "Loan state machine validator enforcing status transitions with admin authorization"
+    },
+    {
+      "name": "Payment Receipt",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "827de8a295d545c5073dba9aa560c8ad0f7849d8f9d131d9a3ffc368",
+      "github": "https://github.com/logic-crf/logic_crf_api/blob/main/contracts/validators/payment_receipt.ak",
+      "description": "Payment receipt NFT minting policy for permanent non-spendable loan payment records"
+    }
+  ]
+}
