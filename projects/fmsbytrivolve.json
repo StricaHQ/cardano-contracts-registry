@@ -1,0 +1,16 @@
+{
+  "projectName": "FMS by Trivolve",
+  "labelPrefix": "FMS Trivolve",
+  "category": "TOOLS",
+  "description": "UP Police Forensics Management Smart Contract by TrivolveTech",
+  "contracts": [
+    {
+      "name": "FMS Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "26370b459e5eafe6e179c94a39bb1c278657de5c1875fb9c5d1fa0ba",
+      "description": "UP Police Forensics Management Smart Contract by TrivolveTech"
+    }
+  ]
+}
