@@ -1,0 +1,28 @@
+{
+  "projectName": "Masumi",
+  "labelPrefix": "Masumi",
+  "website": "https://masumi.network",
+  "twitter": "MasumiNetwork",
+  "discord": "https://discord.com/invite/aj4QfnTS92",
+  "github": "https://github.com/masumi-network",
+  "category": "DEFI",
+  "description": "Decentralized payment network for AI agents with escrow, identity, and trust on-chain",
+  "contracts": [
+    {
+      "name": "Payment Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "bd2adb685621e224aae7571cb6bd8f0beb0fdd31875eb3a27feee6c0",
+      "github": "https://github.com/masumi-network/masumi-payment-service",
+      "description": "Escrow smart contract for AI agent payments with dispute resolution",
+      "audit": [
+        {
+          "provider": "TxPipe",
+          "report": "https://github.com/masumi-network/masumi-payment-service/blob/main/audits/Masumi-Payment-Service-Audit-April-2025.pdf",
+          "date": "01-04-2025"
+        }
+      ]
+    }
+  ]
+}
