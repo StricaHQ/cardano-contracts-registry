@@ -1,0 +1,155 @@
+{
+  "projectName": "Dano Finance",
+  "labelPrefix": "Dano Finance",
+  "website": "https://danogo.io",
+  "twitter": "DanogoFinance",
+  "discord": "https://discord.gg/tb9K8sjmuq",
+  "github": "https://github.com/danogo-finance",
+  "category": "DEFI",
+  "description": "Dano Finance is a Cardano-based DeFi platform focused on lending and borrowing",
+  "contracts": [
+    {
+      "name": "Concentrated Pool Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "d8b69fc53637bcfadbc4469083f706bc293f4d9d2296646c5ca167bb",
+      "github": "https://github.com/danogo-finance/clmm",
+      "audit": [
+        {
+          "provider": "No Witness Labs",
+          "report": "https://151939035-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FXipTeu714Ty8zEKpJIdy%2Fuploads%2Fg6xtnVDWU8qvJFxrTi7o%2Fdanogo-clmm-audit-report-v1.0.pdf?alt=media",
+          "date": "11-03-2026"
+        }
+      ]
+    },
+    {
+      "name": "Oracle Contract",
+      "version": 2,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "f2a240156e3e051ccdc19642c793f807b3bb8b3fb414e1160dd4f40f",
+      "github": "https://github.com/danogo-finance/oracle-aggregator",
+      "audit": [
+        {
+          "provider": "No Witness Labs",
+          "report": "https://151939035-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FXipTeu714Ty8zEKpJIdy%2Fuploads%2F6jsswdqNtzOHSS15hx8a%2Fdanogo-oracle-aggregator-v1.0.pdf?alt=media",
+          "date": "26-12-2025"
+        }
+      ]
+    },
+    {
+      "name": "Oracle Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "012a6bd4ae76261c1d3b5067caa4010f781f5c1c64ce2779bba2f90a",
+      "github": "https://github.com/danogo-finance/oracle-aggregator"
+    },
+    {
+      "name": "Leverage Loan Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "c6ffee02caa95e0a25b55387f17695b0e365ade57422b249d263fc4d",
+      "github": "https://github.com/danogo-finance/float-rate-lending",
+      "audit": [
+        {
+          "provider": "No Witness Labs",
+          "report": "https://151939035-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FXipTeu714Ty8zEKpJIdy%2Fuploads%2FqOPY303pD6nCWKeLbGpk%2Fdanogo-flexible-rate-lending-v1.1.0.pdf?alt=media",
+          "date": "19-11-2025"
+        }
+      ]
+    },
+    {
+      "name": "Leverage Pool Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "73f29518da0013a671458d52624a4828c5b5bedaff8a950b0063b1cf",
+      "github": "https://github.com/danogo-finance/float-rate-lending",
+      "audit": [
+        {
+          "provider": "No Witness Labs",
+          "report": "https://151939035-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FXipTeu714Ty8zEKpJIdy%2Fuploads%2FqOPY303pD6nCWKeLbGpk%2Fdanogo-flexible-rate-lending-v1.1.0.pdf?alt=media",
+          "date": "19-11-2025"
+        }
+      ]
+    },
+    {
+      "name": "Leverage Pool Param Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "fe16cfefe72d4c363e49abc93e91976c4933849b8fc155e978861561",
+      "github": "https://github.com/danogo-finance/float-rate-lending",
+      "audit": [
+        {
+          "provider": "No Witness Labs",
+          "report": "https://151939035-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FXipTeu714Ty8zEKpJIdy%2Fuploads%2FqOPY303pD6nCWKeLbGpk%2Fdanogo-flexible-rate-lending-v1.1.0.pdf?alt=media",
+          "date": "19-11-2025"
+        }
+      ]
+    },
+    {
+      "name": "Flexible Loan Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "aca8e306eda3eb6c25a838bebac37d929c216aab13c8d463fca5a08d",
+      "github": "https://github.com/danogo-finance/float-rate-lending",
+      "audit": [
+        {
+          "provider": "No Witness Labs",
+          "report": "https://151939035-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FXipTeu714Ty8zEKpJIdy%2Fuploads%2FLNVh9hluR8rs3AtUIkva%2Fdanogo-flexible-rate-lending-audit-report.pdf?alt=media",
+          "date": "07-06-2025"
+        }
+      ]
+    },
+    {
+      "name": "Flexible Pool Param Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "814de8a99452972a9fa9fe2c0f59f49697f208005c001ecac1ddfd57",
+      "github": "https://github.com/danogo-finance/float-rate-lending",
+      "audit": [
+        {
+          "provider": "No Witness Labs",
+          "report": "https://151939035-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FXipTeu714Ty8zEKpJIdy%2Fuploads%2FLNVh9hluR8rs3AtUIkva%2Fdanogo-flexible-rate-lending-audit-report.pdf?alt=media",
+          "date": "07-06-2025"
+        }
+      ]
+    },
+    {
+      "name": "Flexible Pool Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "94dca24a1f1fcc2ff51cd90f32f4fe9e786d861a2dbf7d27598d26e8",
+      "github": "https://github.com/danogo-finance/float-rate-lending",
+      "audit": [
+        {
+          "provider": "No Witness Labs",
+          "report": "https://151939035-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FXipTeu714Ty8zEKpJIdy%2Fuploads%2FLNVh9hluR8rs3AtUIkva%2Fdanogo-flexible-rate-lending-audit-report.pdf?alt=media",
+          "date": "07-06-2025"
+        }
+      ]
+    },
+    {
+      "name": "Staking Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "9759bfd89ffa91652064f3a2ef66dcc5c52ca85b55e938ad29198f72",
+      "github": "https://github.com/danogo-finance/float-rate-lending",
+      "audit": [
+        {
+          "provider": "No Witness Labs",
+          "report": "https://151939035-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FXipTeu714Ty8zEKpJIdy%2Fuploads%2FLNVh9hluR8rs3AtUIkva%2Fdanogo-flexible-rate-lending-audit-report.pdf?alt=media",
+          "date": "07-06-2025"
+        }
+      ]
+    }
+  ]
+}
