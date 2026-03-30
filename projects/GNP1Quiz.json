@@ -1,17 +1,17 @@
 {
-    "projectName": "Cardano Smart Contract Quiz V1000",
-    "labelPrefix": "GNP1Quiz",
-    "website": "https://server-tools.grahamsnumberplus1.com/quiz_V1000/quiz-V1000.html",
-    "twitter": "GNP1pool",
-    "discord": "https://discord.gg/Q9B9eQkpWS",
-    "category": "EDUCATIONAL",
-    "contracts": [
-      {
-        "name": "Quiz V1000 Validator",
-        "version": 1,
-        "language": "PLUTUS",
-        "languageVersion": 2,
-        "scriptHash": "5034bb82c005a2bf01c8ee6b3bb3f15e972d3ed36b6dd3ddeeb7cd34"
-      }
-    ]
-  }
+  "projectName": "Cardano Smart Contract Quiz V1000",
+  "labelPrefix": "GNP1Quiz",
+  "website": "https://server-tools.grahamsnumberplus1.com/quiz_V1000/quiz-V1000.html",
+  "twitter": "GNP1pool",
+  "discord": "https://discord.gg/Q9B9eQkpWS",
+  "category": "EDUCATIONAL",
+  "contracts": [
+    {
+      "name": "Quiz V1000 Validator",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "5034bb82c005a2bf01c8ee6b3bb3f15e972d3ed36b6dd3ddeeb7cd34"
+    }
+  ]
+}
