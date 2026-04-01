@@ -3,6 +3,48 @@
   "labelPrefix": "Dano Finance",
   "contracts": [
     {
+      "name": "Bond Swap Validator",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "537071da0b93b2c126ffeb754e9147f816d6da1ef13e72aba4d22523"
+    },
+    {
+      "name": "Bond Swap Validator",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "c72a1aa3e4568cbe681734582d660383b2cabf3f27289643021e89c6"
+    },
+    {
+      "name": "OptimBond Validator",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "1d2390bab44f6267c0145456dc2f5f8ea2586fcb0aadac5525d9a406"
+    },
+    {
+      "name": "Bond Validator",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "6c7831efc56f019518ff9a2bad54848c7ee689b99dbca042b251a096"
+    },
+    {
+      "name": "Borrow Validator",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "e99bdbaa35c8adb221ce6feafcab06cd33575f7518ba5f970c7eb702"
+    },
+    {
+      "name": "Borrow Validator",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "b49635995d909a262fe030bb92886257a24e8b96eab5fa03ef9ff517"
+    },
+    {
       "name": "Concentrated Pool Contract",
       "version": 1,
       "language": "PLUTUS",
