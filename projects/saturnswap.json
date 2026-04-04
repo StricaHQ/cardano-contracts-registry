@@ -17,6 +17,15 @@
                     "date": "12-06-2024"
                 }
             ]
+        },
+        {
+            "name": "Hydra Orderbook",
+            "version": 1,
+            "language": "PLUTUS",
+            "languageVersion": 3,
+            "scriptHash": "822e4b503a6a659cce5cb7e1d977633099adf5e5228ec0dcb170a754",
+            "github": "https://github.com/Flux-Point-Studios/hydra-orderbook-audit",
+            "description": "Hydra L2 limit orderbook for batcherless order matching"
         }
     ]
 }
