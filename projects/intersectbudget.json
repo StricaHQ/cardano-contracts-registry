@@ -1,0 +1,50 @@
+{
+  "projectName": "Intersect Budget Contracts",
+  "labelPrefix": "Intersect Budget",
+  "website": "https://www.intersectmbo.org/",
+  "twitter": "IntersectMBO",
+  "category": "TOOLS",
+  "description": "Budget management system for Intersect budget process 2025.",
+  "contracts": [
+    {
+      "name": "Treasury Reserve Contract",
+      "version": 0,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "8583857e4a12ffe1e6f641a1785a0f2f036c565cfbe6ff9db8e5a469",
+      "github": "https://github.com/SundaeSwap-finance/treasury-contracts",
+      "audit": [
+        {
+          "provider": "mLabs",
+          "report": "https://github.com/SundaeSwap-finance/treasury-contracts/blob/main/audits/mlabs.pdf",
+          "date": "07-06-2025"
+        },
+        {
+          "provider": "TxPipe",
+          "report": "https://github.com/SundaeSwap-finance/treasury-contracts/blob/main/audits/txpipe.pdf",
+          "date": "06-06-2025"
+        }
+      ]
+    },
+    {
+      "name": "Vendor Contract",
+      "version": 0,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "882cbb37779b7f1f3dd2b7643662de1bfc180baf225ef820c3d8feae",
+      "github": "https://github.com/SundaeSwap-finance/treasury-contracts",
+      "audit": [
+        {
+          "provider": "mLabs",
+          "report": "https://github.com/SundaeSwap-finance/treasury-contracts/blob/main/audits/mlabs.pdf",
+          "date": "07-06-2025"
+        },
+        {
+          "provider": "TxPipe",
+          "report": "https://github.com/SundaeSwap-finance/treasury-contracts/blob/main/audits/txpipe.pdf",
+          "date": "06-06-2025"
+        }
+      ]
+    }
+  ]
+}
