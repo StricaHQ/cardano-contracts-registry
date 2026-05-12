@@ -1,0 +1,36 @@
+{
+  "projectName": "UVerify",
+  "labelPrefix": "UVerify",
+  "website": "https://uverify.io",
+  "twitter": "uvfyhq",
+  "discord": "https://discord.gg/Dvqkynn6xc",
+  "github": "https://github.com/UVerify-io",
+  "category": "TOOLS",
+  "description": "UVerify records tamper-proof fingerprints on Cardano. Every certificate is a dApp.",
+  "contracts": [
+    {
+      "name": "Library",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "20c3394ac4946a389853a545719ea3080c494e578903239c36bd8b0b",
+      "description": "Reference script holder that stores the proxy and state validators on-chain for transaction efficiency"
+    },
+    {
+      "name": "Proxy",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "07d07e14f58a908a89d065faa28c969f4e1b7174b0075e233127f270",
+      "description": "Ensures every UVerify state is issued under its policy, enabling upgradeability and simplified off-chain scoped indexing"
+    },
+    {
+      "name": "State V1",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "499b5f203848362b46c6e0958e8ef318fe5f928f880b6c1baf9f6d7e",
+      "description": "Holds the business logic for certificate issuance and updates, parameterized per proxy version to enforce protocol rules on-chain"
+    }
+  ]
+}
