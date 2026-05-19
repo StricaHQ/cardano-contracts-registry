@@ -1,0 +1,19 @@
+{
+  "projectName": "5am.earth",
+  "labelPrefix": "5am.earth",
+  "website": "https://5am.earth",
+  "twitter": "Elkconnect_web3",
+  "github": "https://github.com/AIQUANT-Tech/5am.earth",
+  "category": "ORACLE",
+  "description": "Empowering Agri Enterprenures and farmers with decentralized farm identity, earth observation data, and Field sustainablity score on Cardano",
+  "contracts": [
+    {
+      "name": "5am.earth",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "c4f37d2bc1a955cfdc33597b3c089179ebeffdc624bbcf05b33950ef",
+      "description": "Oracle contract enabling trusted data exchange for farm boundries, smallholder farmers and agri-entrepreneurs"
+    }
+  ]
+}
