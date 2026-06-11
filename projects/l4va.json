@@ -1,0 +1,48 @@
+{
+  "projectName": "L4VA Protocol",
+  "labelPrefix": "L4VA",
+  "website": "https://l4va.com",
+  "twitter": "l4vaprotocol",
+  "discord": "https://discord.com/invite/mBbTUfAzuS",
+  "github": "https://github.com/L4VA-Technologies-Inc",
+  "category": "DEFI",
+  "description": "DeFi asset fractionalization, tokenization, and governance protocol",
+  "contracts": [
+    {
+      "name": "Vault Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "fd892d61b7db3490d79b8fd9e224264e3704f9b5041bf7cc35950fd2",
+      "github": "https://github.com/L4VA-Technologies-Inc/vault-contract",
+      "description": "Manages vault creation, deposits, and fractionalization"
+    },
+    {
+      "name": "Contribution Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "2d390db31923d5c3c36a3b1692917823495db2017d3d759581be1051",
+      "github": "https://github.com/L4VA-Technologies-Inc/vault-contract",
+      "description": "Handles contributions and minting of fractional tokens"
+    },
+    {
+      "name": "Dispatch Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "9bdd8fadbf85af297cc715f2adcefedf8ad96827faa231a85a83525f",
+      "github": "https://github.com/L4VA-Technologies-Inc/vault-contract",
+      "description": "Manages payout distributions to vault contributors"
+    },
+    {
+      "name": "Staking Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "b1eb39309da81b5ef931310c1f5a708f088c634deb12363700380045",
+      "github": "https://github.com/L4VA-Technologies-Inc/staking-contract",
+      "description": "Manages staking and rewards for L4VA token holders"
+    }
+  ]
+}
