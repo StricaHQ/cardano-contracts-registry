@@ -38,6 +38,30 @@
         "languageVersion": 3,
         "scriptHash": "a3959153cfd23daa1271b520bdf27dc7cbeab6ef24770fc72e458bd8",
         "description": "This contract handles orders for the marketplace."
+      },
+      {
+        "name": "IAG Token",
+        "version": 1,
+        "language": "PLUTUS",
+        "languageVersion": 1,
+        "scriptHash": "5d16cc1a177b5d9ba9cfa9793b07e60f1fb70fea1f8aef064415d114",
+        "description": "Minting policy for the IAG token, the store of value backing Iagon's network resources."
+      },
+      {
+        "name": "Legacy Node Contract",
+        "version": 1,
+        "language": "PLUTUS",
+        "languageVersion": 2,
+        "scriptHash": "6caa3ba78ac89b51aad2d06ab8a5cd097334faba23127fc6f665e272",
+        "description": "Legacy node contract that nodes upgrade from to the current node contract."
+      },
+      {
+        "name": "Staking Market Batcher",
+        "version": 1,
+        "language": "NATIVESCRIPT",
+        "languageVersion": 1,
+        "scriptHash": "3ec3f628639c989da3302724c61c90ced45571d611563d98cd528616",
+        "description": "Identification token policy for the staking market batcher that settles delegated position sales."
       }
     ]
   }
