@@ -8,100 +8,12 @@
     "description": "Cardanos #1 Synthetics Protocol",
     "contracts": [
         {
-          "name": "Stability pool",
+          "name": "INDY minting policy",
           "version": 1,
           "language": "PLUTUS",
           "languageVersion": 2,
-          "scriptHash": "de1585e046f16fdf79767300233c1affbe9d30340656acfde45e9142",
-          "description": "Handles protocol stability by maintaining a pool of assets."
-        },
-        {
-          "name": "iUSD",
-          "version": 1,
-          "language": "PLUTUS",
-          "languageVersion": 2,
-          "scriptHash": "1042576d1de963437bd4bb50dcd91459756e6812b7c06dd543a332c8",
-          "description": "iUSD synthetic asset contract."
-        },
-        {
-          "name": "iBTC",
-          "version": 1,
-          "language": "PLUTUS",
-          "languageVersion": 2,
-          "scriptHash": "d27ad3ed7b073018d429e57c2f8d1f52445aa241e280e6da149a91b4",
-          "description": "iBTC synthetic asset contract."
-        },
-        {
-          "name": "iETH",
-          "version": 1,
-          "language": "PLUTUS",
-          "languageVersion": 2,
-          "scriptHash": "f350350cd40d0d8e8744f2c6cad54a0abc9d51f107f57fb95c181a3f",
-          "description": "iETH synthetic asset contract."
-        },
-        {
-          "name": "Indy staking",
-          "version": 1,
-          "language": "PLUTUS",
-          "languageVersion": 2,
-          "scriptHash": "54e8d424816f5bbd423353009ff7c31ada2cbdefe651175014117f46",
-          "description": "Indy staking functionality for INDY token."
-        },
-        {
-          "name": "CDP",
-          "version": 1,
-          "language": "PLUTUS",
-          "languageVersion": 2,
-          "scriptHash": "e4d2fb0b8d275852103fd75801e2c7dcf6ed3e276c74cabadbe5b8b6",
-          "description": "Collateralized Debt Position contract."
-        },
-        {
-          "name": "Stability pool account",
-          "version": 1,
-          "language": "PLUTUS",
-          "languageVersion": 2,
-          "scriptHash": "a473cb8eb0b61c03b8696fceab1c1a89fa3ec834572850e7c2abe783",
-          "description": "Manages individual accounts in the stability pool."
-        },
-        {
-          "name": "CDP creator",
-          "version": 1,
-          "language": "PLUTUS",
-          "languageVersion": 2,
-          "scriptHash": "ea5358d9fe82cc7ad8de0e76b4eabd851526408e51daa9d8bb4b137d",
-          "description": "Allows creation of CDP positions."
-        },
-        {
-          "name": "Poll Manager",
-          "version": 1,
-          "language": "PLUTUS",
-          "languageVersion": 2,
-          "scriptHash": "c1af46643698bc73f9857a0cc21ec949ce6919974b435d057dc448b8",
-          "description": "Manages protocol polls/voting mechanisms."
-        },
-        {
-          "name": "Poll Manager upgrade",
-          "version": 1,
-          "language": "PLUTUS",
-          "languageVersion": 2,
-          "scriptHash": "127912493e7b3c36a68aa4d8916fb9076b44faa5e15142486e317af4",
-          "description": "Handles upgrades for the poll manager."
-        },
-        {
-          "name": "DEX LP token staking",
-          "version": 1,
-          "language": "PLUTUS",
-          "languageVersion": 2,
-          "scriptHash": "10c36e9a15dc7843c47f57ad294d0a5187ab599961270ec9f5d2c993",
-          "description": "Allows staking of DEX LP tokens."
-        },
-        {
-          "name": "Upgrade",
-          "version": 1,
-          "language": "PLUTUS",
-          "languageVersion": 2,
-          "scriptHash": "21a8e689ae9628b84e1767e5871c8a2d30f430579bc14fd863ffe720",
-          "description": "Manages contract upgrades."
+          "scriptHash": "533bb94a8850ee3ccbe483106489399112b74c905342cb1792a797a0",
+          "description": "Minting policy for INDY."
         },
         {
           "name": "iAssets minting policy",
@@ -112,12 +24,28 @@
           "description": "Minting policy for iAssets."
         },
         {
+          "name": "CDP creator minting policy",
+          "version": 1,
+          "language": "PLUTUS",
+          "languageVersion": 2,
+          "scriptHash": "735b37149eb0c2a5fb590bd60e39fe90ae3a96b6065b05d7aca99ebb",
+          "description": "Minting policy for CDP creators."
+        },
+        {
           "name": "CDP minting policy",
           "version": 1,
           "language": "PLUTUS",
           "languageVersion": 2,
           "scriptHash": "708f5e6d597fc038d09a738d7be32edd6ea779d6feb32a53668d9050",
           "description": "Minting policy for CDPs."
+        },
+        {
+          "name": "Stability Pool minting policy",
+          "version": 1,
+          "language": "PLUTUS",
+          "languageVersion": 2,
+          "scriptHash": "3f28fb7d6c40468262dffb1c3adb568b342499826b664d940085d022",
+          "description": "Minting policy for stability pools."
         },
         {
           "name": "SP Account minting policy",
@@ -128,7 +56,15 @@
           "description": "Minting policy for stability pool accounts."
         },
         {
-          "name": "Staking position minting policy",
+          "name": "Staking Manager minting policy",
+          "version": 1,
+          "language": "PLUTUS",
+          "languageVersion": 2,
+          "scriptHash": "24b458412c2a7f9acb9c53c7ec4325b36806912ed56d2f91bfcf4d26",
+          "description": "Minting policy for the staking manager NFT."
+        },
+        {
+          "name": "Staking Position minting policy",
           "version": 1,
           "language": "PLUTUS",
           "languageVersion": 2,
@@ -136,12 +72,28 @@
           "description": "Minting policy for staking positions."
         },
         {
-          "name": "Poll Manager minting policy",
+          "name": "DAO identity minting policy",
+          "version": 1,
+          "language": "PLUTUS",
+          "languageVersion": 2,
+          "scriptHash": "07d3770b2ddfa1cb35d32fab2446731f50efd9229ae4b1180552558d",
+          "description": "Minting policy for the Indigo DAO identity NFT."
+        },
+        {
+          "name": "Governance minting policy",
+          "version": 1,
+          "language": "PLUTUS",
+          "languageVersion": 2,
+          "scriptHash": "2fccae8bc1c8553a2185b2e77ccdea22f2e1d6e87beb80ef4eaf8cce",
+          "description": "Minting policy for the Governance NFT."
+        },
+        {
+          "name": "Poll minting policy",
           "version": 1,
           "language": "PLUTUS",
           "languageVersion": 2,
           "scriptHash": "f9b162ea9529e639a083595294006a833473883a75d6df1e4c22dd4f",
-          "description": "Minting policy for poll manager NFTs."
+          "description": "Minting policy for poll managers and poll shards."
         },
         {
           "name": "Upgrade minting policy",
@@ -152,36 +104,68 @@
           "description": "Minting policy for upgrade tokens."
         },
         {
-          "name": "Fee Collector",
+          "name": "Version record minting policy",
           "version": 1,
           "language": "PLUTUS",
           "languageVersion": 2,
-          "scriptHash": "0752abd65a0c983bfb1c9c3880cc632c099ba3adb2fe307afb4bbd9c",
-          "description": "Contract for collecting protocol fees."
+          "scriptHash": "d626ddf398b0bca6e112cf0b78c8124b989a6ca4e7c0dfe8c18c7c2e",
+          "description": "Minting policy for version records."
+        },
+        {
+          "name": "iAsset record minting policy",
+          "version": 1,
+          "language": "PLUTUS",
+          "languageVersion": 2,
+          "scriptHash": "97da12de04a6b527cc3b3469c5e5485cf258dfd1021f12e728f2e714",
+          "description": "Minting policy for iAsset records."
+        },
+        {
+          "name": "Collateral asset record minting policy",
+          "version": 1,
+          "language": "PLUTUS",
+          "languageVersion": 2,
+          "scriptHash": "b7d412f51a05bacbb34693bcac61efa935a8717d4b07801a115936ff",
+          "description": "Minting policy for collateral asset records."
+        },
+        {
+          "name": "Interest collector admin minting policy",
+          "version": 1,
+          "language": "PLUTUS",
+          "languageVersion": 2,
+          "scriptHash": "47fa499d17c414c9a1a2246960827ef5085aabf7d558715474622d36",
+          "description": "Minting policy for the interest collector admin NFT."
+        },
+        {
+          "name": "INDY Staking",
+          "version": 1,
+          "language": "PLUTUS",
+          "languageVersion": 2,
+          "scriptHash": "54e8d424816f5bbd423353009ff7c31ada2cbdefe651175014117f46",
+          "description": "Locks INDY staked for voting."
         },
         {
           "name": "INDY staking",
-          "version": 1,
+          "version": 2,
           "language": "PLUTUS",
           "languageVersion": 2,
           "scriptHash": "a23793f529179e09cefb3c37fc6ae081e0e99e99be5cdb55a00941a5",
-          "description": "Staking contract for INDY tokens."
+          "description": "Locks INDY staked for voting."
         },
         {
-          "name": "CDP",
-          "version": 2,
+          "name": "INDY staking",
+          "version": 3,
           "language": "PLUTUS",
-          "languageVersion": 2,
-          "scriptHash": "0d8aee2011f769502cdc07273f7e118722ebf9c585f3fee061986b7b",
-          "description": "Additional version of CDP contract."
+          "languageVersion": 3,
+          "scriptHash": "112996eb011f20eacc28ded86cde177a53ed22264e0131199c983a7e",
+          "description": "Locks INDY staked for voting."
         },
         {
-          "name": "Stability Pool",
-          "version": 2,
+          "name": "CDP Creator",
+          "version": 1,
           "language": "PLUTUS",
           "languageVersion": 2,
-          "scriptHash": "918765cae1147f5f2d914d45059f8b6497caa149ea94dd8da1f683ce",
-          "description": "Additional version of Stability pool contract."
+          "scriptHash": "ea5358d9fe82cc7ad8de0e76b4eabd851526408e51daa9d8bb4b137d",
+          "description": "Verifies the legit creation of an individual user's collateralized debt position (CDP)"
         },
         {
           "name": "CDP Creator",
@@ -189,39 +173,7 @@
           "language": "PLUTUS",
           "languageVersion": 2,
           "scriptHash": "9a5c575d3bf99604bcb691d5f000b4b41866edb893b35a718be5dd01",
-          "description": "Creates CDP positions (v2)."
-        },
-        {
-          "name": "Poll Manager",
-          "version": 2,
-          "language": "PLUTUS",
-          "languageVersion": 2,
-          "scriptHash": "31aaab10e57345a2ed5c37ca32c57b2d9dc6219d23b51c85919febe2",
-          "description": "Poll Manager contract (v2)."
-        },
-        {
-          "name": "Upgrade",
-          "version": 2,
-          "language": "PLUTUS",
-          "languageVersion": 2,
-          "scriptHash": "ac64deeeab59a038158d4b2e22801253e7a9a87a313479acb7ac46ed",
-          "description": "Upgrade contract (v2)."
-        },
-        {
-          "name": "CDP",
-          "version": 3,
-          "language": "PLUTUS",
-          "languageVersion": 2,
-          "scriptHash": "0805d8541db33f4841585fed4c3a7e87e2ff7018243038f06ceb660c",
-          "description": "CDP contract v2.1"
-        },
-        {
-          "name": "Stability Pool",
-          "version": 3,
-          "language": "PLUTUS",
-          "languageVersion": 2,
-          "scriptHash": "88e0299018563dd10c4860d9f34eda56fdb77f302da0e3980620535c",
-          "description": "Stability Pool contract v2.1"
+          "description": "Verifies the legit creation of an individual user's collateralized debt position (CDP)."
         },
         {
           "name": "CDP Creator",
@@ -229,23 +181,319 @@
           "language": "PLUTUS",
           "languageVersion": 2,
           "scriptHash": "0910f79461a71f74782dcd450f22b0c2cac31ab036b66c9219355d99",
-          "description": "CDP Creator contract v2.1"
+          "description": "Verifies the legit creation of an individual user's collateralized debt position (CDP)"
+        },
+        {
+          "name": "CDP Creator",
+          "version": 4,
+          "language": "PLUTUS",
+          "languageVersion": 3,
+          "scriptHash": "95c1458dad9dfddfab22d163fccbb9a8de483ace1e1c990b1f5e3eff",
+          "description": "Verifies the legit creation of an individual user's collateralized debt position (CDP)"
+        },
+        {
+          "name": "CDP",
+          "version": 1,
+          "language": "PLUTUS",
+          "languageVersion": 2,
+          "scriptHash": "e4d2fb0b8d275852103fd75801e2c7dcf6ed3e276c74cabadbe5b8b6",
+          "description": "Locks the collateral for each individual collateralized debt position (CDP)."
+        },
+        {
+          "name": "CDP",
+          "version": 2,
+          "language": "PLUTUS",
+          "languageVersion": 2,
+          "scriptHash": "0d8aee2011f769502cdc07273f7e118722ebf9c585f3fee061986b7b",
+          "description": "Locks the collateral for each individual collateralized debt position (CDP)."
+        },
+        {
+          "name": "CDP",
+          "version": 3,
+          "language": "PLUTUS",
+          "languageVersion": 2,
+          "scriptHash": "0805d8541db33f4841585fed4c3a7e87e2ff7018243038f06ceb660c",
+          "description": "Locks the collateral for each individual collateralized debt position (CDP)."
+        },
+        {
+          "name": "CDP",
+          "version": 4,
+          "language": "PLUTUS",
+          "languageVersion": 3,
+          "scriptHash": "ff0b10bff20e4b68b491492e5ba6c8048a704763b0a45ce2995da0be",
+          "description": "Locks the collateral for each individual collateralized debt position (CDP)."
+        },
+        {
+          "name": "CDP Redeem",
+          "version": 1,
+          "language": "PLUTUS",
+          "languageVersion": 3,
+          "scriptHash": "1967409518c2ff89df164619c14926a689ce00b4690ecfb024592ad3",
+          "description": "Handles redemptions against CDPs."
+        },
+        {
+          "name": "Stability Pool",
+          "version": 1,
+          "language": "PLUTUS",
+          "languageVersion": 2,
+          "scriptHash": "a473cb8eb0b61c03b8696fceab1c1a89fa3ec834572850e7c2abe783",
+          "description": "Handles protocol stability by maintaining a pool of assets."
+        },
+        {
+          "name": "Stability Pool",
+          "version": 2,
+          "language": "PLUTUS",
+          "languageVersion": 2,
+          "scriptHash": "918765cae1147f5f2d914d45059f8b6497caa149ea94dd8da1f683ce",
+          "description": "Handles protocol stability by maintaining a pool of assets."
+        },
+        {
+          "name": "Stability Pool",
+          "version": 3,
+          "language": "PLUTUS",
+          "languageVersion": 2,
+          "scriptHash": "88e0299018563dd10c4860d9f34eda56fdb77f302da0e3980620535c",
+          "description": "Handles protocol stability by maintaining a pool of assets."
+        },
+        {
+          "name": "Stability Pool",
+          "version": 4,
+          "language": "PLUTUS",
+          "languageVersion": 3,
+          "scriptHash": "1c53ed6f616687b340ac83072ec65a9787583c01d6bae0314e1d61d0",
+          "description": "Handles protocol stability by maintaining a pool of assets."
+        },
+        {
+          "name": "Fee Collector",
+          "version": 1,
+          "language": "PLUTUS",
+          "languageVersion": 2,
+          "scriptHash": "de1585e046f16fdf79767300233c1affbe9d30340656acfde45e9142",
+          "description": "Collects the fees generated from the interaction of users with the Indigo Protocol."
+        },
+        {
+          "name": "Fee Collector",
+          "version": 2,
+          "language": "PLUTUS",
+          "languageVersion": 2,
+          "scriptHash": "0752abd65a0c983bfb1c9c3880cc632c099ba3adb2fe307afb4bbd9c",
+          "description": "Collects the fees generated from the interaction of users with the Indigo Protocol."
+        },
+        {
+          "name": "Fee Collector",
+          "version": 3,
+          "language": "PLUTUS",
+          "languageVersion": 3,
+          "scriptHash": "68f23cd9befc2a74a00620b49d66a569cd130b290cd703e5c11891fd",
+          "description": "Collects the fees generated from the interaction of users with the Indigo Protocol."
+        },
+        {
+          "name": "Governance",
+          "version": 1,
+          "language": "PLUTUS",
+          "languageVersion": 2,
+          "scriptHash": "6812c1c5ae96c0ec73f4f324d3eaf5b63b992097bcadefc5f253cd05",
+          "description": "Manages governance of the Indigo DAO."
+        },
+        {
+          "name": "Governance",
+          "version": 2,
+          "language": "PLUTUS",
+          "languageVersion": 2,
+          "scriptHash": "131f26cd99012663aa063d0ef86dc0ac039d1797d5e062768fb12e74",
+          "description": "Manages governance of the Indigo DAO."
+        },
+        {
+          "name": "Governance",
+          "version": 3,
+          "language": "PLUTUS",
+          "languageVersion": 2,
+          "scriptHash": "578db3783ea967554812e837040e25fbd376ee61d24c024ccdc4c863",
+          "description": "Manages governance of the Indigo DAO."
+        },
+        {
+          "name": "Governance",
+          "version": 4,
+          "language": "PLUTUS",
+          "languageVersion": 3,
+          "scriptHash": "adc336ca673fd1568b58ee970220110f8d6ef8dd6ec2b12b1dc1a64b",
+          "description": "Manages governance of the Indigo DAO."
+        },
+        {
+          "name": "Poll Manager",
+          "version": 1,
+          "language": "PLUTUS",
+          "languageVersion": 2,
+          "scriptHash": "127912493e7b3c36a68aa4d8916fb9076b44faa5e15142486e317af4",
+          "description": "Ensures the correct setup of polls and tally of votes for Indigo DAO proposals."
+        },
+        {
+          "name": "Poll Manager",
+          "version": 2,
+          "language": "PLUTUS",
+          "languageVersion": 2,
+          "scriptHash": "31aaab10e57345a2ed5c37ca32c57b2d9dc6219d23b51c85919febe2",
+          "description": "Ensures the correct setup of polls and tally of votes for Indigo DAO proposals."
+        },
+        {
+          "name": "Poll Manager",
+          "version": 3,
+          "language": "PLUTUS",
+          "languageVersion": 2,
+          "scriptHash": "0b26e6c1a098434684f1028561705194b456ebbc8bd7e3e0e070a885",
+          "description": "Ensures the correct setup of polls and tally of votes for Indigo DAO proposals."
+        },
+        {
+          "name": "Poll Manager",
+          "version": 4,
+          "language": "PLUTUS",
+          "languageVersion": 3,
+          "scriptHash": "2c64c712d8ea012866a0e52119409992dcbee828b5e89f58b6c13c68",
+          "description": "Ensures the correct setup of polls and tally of votes for Indigo DAO proposals."
+        },
+        {
+          "name": "Poll Shard",
+          "version": 1,
+          "language": "PLUTUS",
+          "languageVersion": 2,
+          "scriptHash": "c1af46643698bc73f9857a0cc21ec949ce6919974b435d057dc448b8",
+          "description": "Facilitates voting on Indigo DAO proposals."
+        },
+        {
+          "name": "Poll Shard",
+          "version": 2,
+          "language": "PLUTUS",
+          "languageVersion": 2,
+          "scriptHash": "8110c6ae9c92962f01ce98611656c05ea69aa5a709f4ea89c588bbdb",
+          "description": "Facilitates voting on Indigo DAO proposals."
+        },
+        {
+          "name": "Poll Shard",
+          "version": 3,
+          "language": "PLUTUS",
+          "languageVersion": 2,
+          "scriptHash": "2b54b48d17c9689751d7c57d92b3daca98b28bf0b065dd4d49daa0c8",
+          "description": "Facilitates voting on Indigo DAO proposals."
+        },
+        {
+          "name": "Poll Shard",
+          "version": 4,
+          "language": "PLUTUS",
+          "languageVersion": 3,
+          "scriptHash": "814dc78cc5e5076ecffee9a2a0d9e0502531cc5d3f93de90b01c5a03",
+          "description": "Facilitates voting on Indigo DAO proposals."
+        },
+        {
+          "name": "Upgrade",
+          "version": 1,
+          "language": "PLUTUS",
+          "languageVersion": 2,
+          "scriptHash": "21a8e689ae9628b84e1767e5871c8a2d30f430579bc14fd863ffe720",
+          "description": "Manages execution of passed Indigo DAO proposals."
+        },
+        {
+          "name": "Upgrade",
+          "version": 2,
+          "language": "PLUTUS",
+          "languageVersion": 2,
+          "scriptHash": "ac64deeeab59a038158d4b2e22801253e7a9a87a313479acb7ac46ed",
+          "description": "Manages execution of passed Indigo DAO proposals."
+        },
+        {
+          "name": "Upgrade",
+          "version": 3,
+          "language": "PLUTUS",
+          "languageVersion": 2,
+          "scriptHash": "e0612a2268eab843de10df4d02aaeafbc915b537dfe6ce1fc6e8d323",
+          "description": "Manages execution of passed Indigo DAO proposals."
+        },
+        {
+          "name": "Upgrade",
+          "version": 4,
+          "language": "PLUTUS",
+          "languageVersion": 3,
+          "scriptHash": "0e764163b06d954f2dcfecf8d3b257e2bfe3d326d5670e54ca1974ce",
+          "description": "Manages execution of passed Indigo DAO proposals."
         },
         {
           "name": "Treasury",
           "version": 1,
           "language": "PLUTUS",
           "languageVersion": 2,
+          "scriptHash": "8f052a0be1d00e900a18a007382606d4eb0b262836c33de03900ad39",
+          "description": "Indigo DAO Treasury"
+        },
+        {
+          "name": "Treasury",
+          "version": 2,
+          "language": "PLUTUS",
+          "languageVersion": 2,
+          "scriptHash": "16c0a490c721920096645c5594499b2cb1d4067566a9e85855b9326c",
+          "description": "Indigo DAO Treasury"
+        },
+        {
+          "name": "Treasury",
+          "version": 3,
+          "language": "PLUTUS",
+          "languageVersion": 2,
           "scriptHash": "3bd5f8ba0100f39952472619abfddb52d941a5347b88635e874a7b37",
           "description": "Indigo DAO Treasury"
         },
         {
-          "name": "Redemption Order Book",
+          "name": "Treasury",
+          "version": 4,
+          "language": "PLUTUS",
+          "languageVersion": 3,
+          "scriptHash": "46ffe1d162ef5c1c4d4c0b92eb410e8148c59c547952ebac39622abd",
+          "description": "Indigo DAO Treasury"
+        },
+        {
+          "name": "DEX LP token staking",
+          "version": 1,
+          "language": "PLUTUS",
+          "languageVersion": 2,
+          "scriptHash": "10c36e9a15dc7843c47f57ad294d0a5187ab599961270ec9f5d2c993",
+          "description": "Allows staking of DEX LP tokens."
+        },
+        {
+          "name": "Order Book",
           "version": 1,
           "language": "PLUTUS",
           "languageVersion": 2,
           "scriptHash": "519e4d36b834dcf62dacb8c0c978787435cf5981b59f3dc39c55a7b7",
           "description": "Handles redemption orders for synthetic assets."
+        },
+        {
+          "name": "Order Book",
+          "version": 2,
+          "language": "PLUTUS",
+          "languageVersion": 3,
+          "scriptHash": "d5c1360584a962b43f6acd8a511e23d28896deb9c45a218db3bc857c",
+          "description": "Handles redemption orders for synthetic assets."
+        },
+        {
+          "name": "iAsset Registry",
+          "version": 1,
+          "language": "PLUTUS",
+          "languageVersion": 3,
+          "scriptHash": "a9c613a0e6f6bef5a4f6b1d15f8bdd5b1105fede0a3c380d1a920028",
+          "description": "Locks the iAsset and collateral asset records."
+        },
+        {
+          "name": "Interest Collector",
+          "version": 1,
+          "language": "PLUTUS",
+          "languageVersion": 3,
+          "scriptHash": "2cac220a78a8943ed132b2cd2a24f2d26e80bdd66ab54d47517ffc04",
+          "description": "Collects the interest generated by CDPs."
+        },
+        {
+          "name": "PSM",
+          "version": 1,
+          "language": "PLUTUS",
+          "languageVersion": 3,
+          "scriptHash": "245425bb49411414dca4af8f25097c5a27f923249c0779ffaa2bc5a3",
+          "description": "Handles stableswap orders for synthetic assets."
         }
     ]
   }
