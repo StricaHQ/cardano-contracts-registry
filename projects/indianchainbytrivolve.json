@@ -1,0 +1,16 @@
+{
+  "projectName": "Indianchain by Trivolve",
+  "labelPrefix": "Indianchain",
+  "category": "REALFI",
+  "description": "Agricultural records and settlement management smart contract for Telangana by TrivolveTech",
+  "contracts": [
+    {
+      "name": "Trivolve's Indianchain Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "4b0caac56bd9b68c5e3806ab673627d16b568d1476743cca5fd3f39f",
+      "description": "Agricultural records and settlement management smart contract for Telangana by TrivolveTech"
+    }
+  ]
+}
