@@ -1,0 +1,56 @@
+{
+  "projectName": "Lovejoin",
+  "labelPrefix": "Lovejoin",
+  "github": "https://github.com/logical-mechanism/Lovejoin",
+  "twitter": "LogicalMechnism",
+  "discord": "https://discord.gg/r8VwV2jGBy",
+  "category": "TOOLS",
+  "description": "Lovejoin: A Cardano-native, non-custodial privacy mixer",
+  "contracts": [
+    {
+      "name": "Mix Box",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "c145c10ff4bcaef7f5a4dbb3fcbfddca4b6c7b08191b0690b12f1fad",
+      "github": "https://github.com/logical-mechanism/Lovejoin/tree/main/contracts",
+      "description": "This contract holds the pooled mix boxes and defers validation to the mix logic."
+    },
+    {
+      "name": "Mix Logic",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "0dad3046f90d9cf8354eb8b743d50fb2c25d581269b94ffcdf59499e",
+      "github": "https://github.com/logical-mechanism/Lovejoin/tree/main/contracts",
+      "description": "This contract verifies the mix and withdraw proofs once per transaction."
+    },
+    {
+      "name": "Fee Pool",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "a072c7e839ab9ddf24344d0b2f70f56971f187fee8089f5f64212406",
+      "github": "https://github.com/logical-mechanism/Lovejoin/tree/main/contracts",
+      "description": "This contract holds the shared fee shards that pay for mix transactions."
+    },
+    {
+      "name": "Reference Minter",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "f5592689c7ab35553a3234a54c0ee118090a5762c696819a53a5a826",
+      "github": "https://github.com/logical-mechanism/Lovejoin/tree/main/contracts",
+      "description": "This contract mints the one-of-one Lovejoin reference token."
+    },
+    {
+      "name": "Reference Holder",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "288fea77a0f674c6080aadd8ed3ca42cd5a920bf1f00c0d3e63306e4",
+      "github": "https://github.com/logical-mechanism/Lovejoin/tree/main/contracts",
+      "description": "This contract permanently holds the reference token and protocol parameters."
+    }
+  ]
+}
