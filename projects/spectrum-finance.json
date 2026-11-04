@@ -38,6 +38,13 @@
       "languageVersion": 2,
       "scriptHash": "83da79f531c19f9ce4d85359f56968a742cf05cc25ed3ca48c302dee",
       "github": "https://github.com/spectrum-finance/cardano-dex-contracts"
+    },
+    {
+      "name": "AMM Pool Contract",
+      "version": 2,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "6b9c456aa650cb808a9ab54326e039d5235ed69f069c9664a8fe5b69"
     }
   ]
 }
