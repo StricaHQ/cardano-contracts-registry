@@ -96,6 +96,41 @@
       "language": "PLUTUS",
       "languageVersion": 2,
       "scriptHash": "0454355b392202e594ce74be2f5ff9ae64c6ac0fbb45cb676f8078a2"
+    },
+    {
+      "name": "AMM Pool NFT Policy",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "909133088303c49f3a30f1cc8ed553a73857a29779f6c6561cd8093f"
+    },
+    {
+      "name": "AMM Factory Policy",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "de9b756719341e79785aa13c164e7fe68c189ed04d61c9876b2fe53f"
+    },
+    {
+      "name": "AMM Pool NFT Policy (2nd)",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "7a8041a0693e6605d010d5185b034d55c79eaf7ef878aae3bdcdbf67"
+    },
+    {
+      "name": "AMM Factory Policy (2nd)",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "ffcdbb9155da0602280c04d8b36efde35e3416567f9241aff0955269"
+    },
+    {
+      "name": "Concentrated Liquidity Factory Policy",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "f33bf12af1c23d660e29ebb0d3206b0bfc56ffd87ffafe2d36c42a45"
     }
   ]
 }
