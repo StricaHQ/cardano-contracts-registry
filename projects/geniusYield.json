@@ -1,0 +1,38 @@
+{
+  "projectName": "Genius Yield",
+  "labelPrefix": "Genius Yield",
+  "website": "https://www.geniusyield.co",
+  "twitter": "GeniusyieldO",
+  "category": "DEX",
+  "description": "Order-book DEX on Cardano with partial fills and an automated yield optimizer",
+  "contracts": [
+    {
+      "name": "DEX Order Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "edfff663d37fc5f9753bc4222e0da2bfe08aa48db0837d2c329adeb3"
+    },
+    {
+      "name": "DEX Order NFT Policy",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "22f6999d4effc0ade05f6e1a70b702c65d6b3cdf0e301e4a8267f585"
+    },
+    {
+      "name": "DEX Order Contract v1.1",
+      "version": 2,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "a8d7ff5cf4c117270288372f9ac8e1ce5b758ae15a7851c41661a48c"
+    },
+    {
+      "name": "DEX Order NFT Policy v1.1",
+      "version": 2,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "642c1f7bf79ca48c0f97239fcb2f3b42b92f2548184ab394e1e1e503"
+    }
+  ]
+}
