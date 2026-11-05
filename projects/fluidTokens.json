@@ -1,0 +1,248 @@
+{
+  "projectName": "Fluid Tokens",
+  "labelPrefix": "FluidTokens",
+  "website": "https://fluidtokens.com",
+  "twitter": "FluidTokens",
+  "category": "DEFI",
+  "description": "Lending and borrowing protocol on Cardano.",
+  "contracts": [
+    {
+      "name": "Pool (V3)",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "ad353a777c817f4d9d6c4324930f5c6128400517ec9dae0461e034cd"
+    },
+    {
+      "name": "Request (V3)",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "dc9003272dbd7fc5d19ce4f0eb3a92bec2c4ffcbd58c8ce4493888bc"
+    },
+    {
+      "name": "Pool Spend",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "ecd0c0fc554beb43ade65d45dd471ede4d9cfc9b22bb70de8e113458"
+    },
+    {
+      "name": "Loan Spend",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "b5763e3c9cb7f1a2167f74f76cb635d24d138a4cc5cf9d87659c662d"
+    },
+    {
+      "name": "Request Spend",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "390d27f97868840864922fb0b5657ae4982b5be8bf03bf9cec81125e"
+    },
+    {
+      "name": "Lender Manager Spend",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "6743f4b69446b4e066cfb89daa3d01ef041b6d2646968993be4cec09"
+    },
+    {
+      "name": "Pool Manager Spend",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "dfb1d21e529af28d82004eee5689e3304bb896c35ce8fe65c85612b0"
+    },
+    {
+      "name": "Asset Manager Spend",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "b256da41be022ba1a28fe92b32eeea00109310e3f0aea1cb7791d98f"
+    },
+    {
+      "name": "Locked Borrower Manager Spend",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "072eee302404c8d869bbc61a2c45502d371d96ec7d6aae7b179bfaa3"
+    },
+    {
+      "name": "Loan Spend (legacy)",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "5abbaa2eb177b574707fa3617e3436295d45d7795e0874623a9504da"
+    },
+    {
+      "name": "Repayment Spend (legacy)",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "e20678c018fe01a9b0d116a5a1bfa57e2efe8520645ca303d2c26a0e"
+    },
+    {
+      "name": "Pool Borrow",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "b8f1870006e7372cc6eaa19e69b742d86c756dbf77e9be6264c000b3"
+    },
+    {
+      "name": "Pool Cancel",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "f7ed285d6a9b9772666c7f379ac3e70d777b9d651026385fd26c3e4d"
+    },
+    {
+      "name": "Pool Edit",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "1ec1853344febb4f5de40fceca2316deb68baa3300161afed4ed6ae0"
+    },
+    {
+      "name": "Pool Compound",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "fef12ea655d7d562bd419cad05723e201b1f292e6b6be5a874f073ba"
+    },
+    {
+      "name": "Pool Sell Lender Position",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "f43354cb9a5fd138398869ca76cd9fefadfa87e60cb0f47081376a0f"
+    },
+    {
+      "name": "Pool Manager",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "1e0bf58a4ef7f8f7579b58e290ea9f9283239bb4f7932fe8f29df03a"
+    },
+    {
+      "name": "Pool Manager Cancel",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "e39f6aac5e71c42edc7e190456483086dfdd94c73c0e352234cc3d1b"
+    },
+    {
+      "name": "Pool Manager Edit Pool",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "df8247f95cf81bf662c38a95f43851022a58f1f0fcbb7b453544afae"
+    },
+    {
+      "name": "Pool Manager Compound",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "96f1e8891ea6c52ad5f90f7086d2ee84c568ab154e3d43c75eca2505"
+    },
+    {
+      "name": "Pool Manager Update",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "f97528fe7e30bdccf85926fcda112bbefdce316125e2ccd086ce9802"
+    },
+    {
+      "name": "Loan Claim",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "6a6f2aecc2ece13cc35df625c44b6865d07c82f0e07cd3410f4c2c86"
+    },
+    {
+      "name": "Loan Recast",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "c0af09a3656074f444e1daec043896c235d18aba0567aba7afb55fe8"
+    },
+    {
+      "name": "Loan Repay",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "41ac9c9f0bd2acc2db8af9882b772daee90fcf1ad877f0451bd7af28"
+    },
+    {
+      "name": "Loan Change Collateral",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "7aa6795463a8dcb3534246a6c3d6b1f29a72f920ae1dad6d0bacd43d"
+    },
+    {
+      "name": "Lender Manager",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "247065fa7d0f8c5bce2bb379aa76d2cd79ad4e6a7ab207627039a804"
+    },
+    {
+      "name": "Lender Manager Withdraw Bonds",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "1bcd2ac824b02aac21c4a018138aca4884c99fb3b9bca64d6240af2e"
+    },
+    {
+      "name": "Lender Manager Liquidate",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "8f469373e2ccf7298d0b9b3b971a82ee6a89c2ceeaf9446090326c10"
+    },
+    {
+      "name": "Lender Manager Compound",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "4713a925302692076b686eee3de80963c94e464108522afacf19039c"
+    },
+    {
+      "name": "Lender Manager Liquidate And Prepay",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "0e000364ffae7e6768f719248858cfd439541ae7eeb2e7f49b2aa380"
+    },
+    {
+      "name": "Lender Liquidate Prepay And Compound",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "00e38efa912fa4e6906c9e8550c34ef15aaf7074973c1445642a0be4"
+    },
+    {
+      "name": "Lender Manager Liquidate And Convert",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "cbf3e8c5a42e6d0f505540d5aa2104b7e29a9c3a7ade581df74ba774"
+    },
+    {
+      "name": "Asset Manager",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "addd060da203f54e8ffc8a5d363094bc5e63d85734fe9d2869614d79"
+    },
+    {
+      "name": "Locked Borrower Manager",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "9ca7053025f9a9b921b0eb23e1e49ea0a9153454efa64a49c2a1d39a"
+    }
+  ]
+}
