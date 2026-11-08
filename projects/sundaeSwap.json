@@ -1,0 +1,101 @@
+{
+  "projectName": "SundaeSwap",
+  "labelPrefix": "SundaeSwap",
+  "website": "https://www.sundaeswap.finance",
+  "twitter": "SundaeSwap",
+  "category": "DEX",
+  "description": "Automated market maker DEX on Cardano, with batched orders settled by scoopers",
+  "contracts": [
+    {
+      "name": "V3 Pool Contract",
+      "version": 3,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "e0302560ced2fdcbfcb2602697df970cd0d6a38f94b32703f51c312b"
+    },
+    {
+      "name": "V3 Order Contract",
+      "version": 3,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "fa6a58bbe2d0ff05534431c8e2f0ef2cbdc1602a8456e4b13c8f3077"
+    },
+    {
+      "name": "V3 Settings Contract",
+      "version": 3,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "6d9d7acac59a4469ec52bb207106167c5cbfa689008ffa6ee92acc50"
+    },
+    {
+      "name": "V3 Batch Withdrawal Contract",
+      "version": 3,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "99e5aacf401fed0eb0e2993d72d423947f42342e8f848353d03efe61"
+    },
+    {
+      "name": "V4 Pool Contract",
+      "version": 4,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "21c9b7b965646069f9becebf8b4c3cedaf84c19b109eaa5980a14a26"
+    },
+    {
+      "name": "V4 Pool Mint Policy",
+      "version": 4,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "d9d5985e0657933005d6eb953aeadad29aa8c36f17e493e2962584ec"
+    },
+    {
+      "name": "V4 Order Contract",
+      "version": 4,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "07eb2fb09d9dd6603870ce6f84c8f8506249152173ddf0c77f1f07ec"
+    },
+    {
+      "name": "V4 Settings Contract",
+      "version": 4,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "808db58d7d66d348b0cc7d83c202ef1d19534d00bf6c463a531020ad"
+    },
+    {
+      "name": "V4 Settings Mint Policy",
+      "version": 4,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "371738e95ab3f0afba69c6b0896df05d7851a5307a830677b77c2ead"
+    },
+    {
+      "name": "V4 Basic Order Constraint",
+      "version": 4,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "30f1fac08a15ef84ea6a5aa04989b1c2ceeb3b437f2c3103df5aca68"
+    },
+    {
+      "name": "V4 Constant Sum Swap Module",
+      "version": 4,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "4e1a435f8d55f26068150579c18964e58078082b899e6bb560be7cd5"
+    },
+    {
+      "name": "V4 Stableswap Swap Module",
+      "version": 4,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "f47f6594cab956302f7f1cd81ac4122e9ee128146102497feca1a79f"
+    },
+    {
+      "name": "V4 Fairness Module",
+      "version": 4,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "31d2328d6ddc3d5dfc48c5b827aa922506a80e7db40f25ef807d0fd5"
+    }
+  ]
+}

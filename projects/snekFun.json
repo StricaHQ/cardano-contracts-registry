@@ -1,0 +1,51 @@
+{
+  "projectName": "snek.fun",
+  "labelPrefix": "snek.fun",
+  "website": "https://snek.fun",
+  "category": "DEFI",
+  "description": "Token launchpad on Cardano: tokens trade on a bonding curve, then graduate to a DEX pool",
+  "contracts": [
+    {
+      "name": "Bonding Curve Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "905ab869961b094f1b8197278cfe15b45cbe49fa8f32c6b014f85a2d"
+    },
+    {
+      "name": "Curve NFT Policy",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "63f947b8d9535bc4e4ce6919e3dc056547e8d30ada12f29aa5f826b8"
+    },
+    {
+      "name": "Instant Order Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "d9143ac63473b17a215d1b7484dfb6ac6b4a0005beb0e26a6ca02c96"
+    },
+    {
+      "name": "Graduation Withdrawal Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "68be6aa2e9e116cdb94ab101ae84817e3ccccb37475cf6db9cfd00d4"
+    },
+    {
+      "name": "Graduated Pool NFT Policy",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "d8eb52caf3289a2880288b23141ce3d2a7025dcf76f26fd5659add06"
+    },
+    {
+      "name": "Graduated Pool LP Policy",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "6e917b8b965078a39804a6313e5be73535612421acd70aa83f0ec200"
+    }
+  ]
+}

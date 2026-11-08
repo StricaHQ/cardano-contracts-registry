@@ -204,6 +204,13 @@
       "language": "PLUTUS",
       "languageVersion": 2,
       "scriptHash": "6563d77a4da81a91831c68d192a3eeefb0340f1341518aae7ce2d48e"
+    },
+    {
+      "name": "V2 Batching Withdrawal Contract",
+      "version": 2,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "1eae96baf29e27682ea3f815aba361a0c6059d45e4bfbe95bbd2f44a"
     }
   ]
 }

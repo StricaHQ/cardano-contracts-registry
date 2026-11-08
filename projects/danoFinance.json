@@ -239,6 +239,13 @@
           "date": "24-05-2025"
         }
       ]
+    },
+    {
+      "name": "Concentrated Config Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "fa991bc2f9c4206e72d713bc3487a72e7901057cabb8d364bebeef8f"
     }
   ]
 }

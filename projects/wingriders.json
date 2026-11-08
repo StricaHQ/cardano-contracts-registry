@@ -96,6 +96,13 @@
       "language": "PLUTUS",
       "languageVersion": 2,
       "scriptHash": "23680ea6701b56f2c12ae79d8af94fd36f509b7b007029c7ce114840"
+    },
+    {
+      "name": "V2: Pool Validity Minting Policy",
+      "version": 2,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "6fdc63a1d71dc2c65502b79baae7fb543185702b12c3c5fb639ed737"
     }
   ]
 }

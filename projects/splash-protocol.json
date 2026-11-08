@@ -65,6 +65,69 @@
       "languageVersion": 2,
       "scriptHash": "464eeee89f05aff787d40045af2a40a83fd96c513197d32fbc54ff02",
       "github": "https://github.com/splashprotocol/splash-core"
+    },
+    {
+      "name": "Older Spot Order Contract",
+      "version": 0,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "dbe7a3d8a1d82990992a38eea1a2efaa68e931e252fc92ca1383809b"
+    },
+    {
+      "name": "Older Spot Order Batch Witness",
+      "version": 0,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "221ad845313837904c15a0f0107dd0cbe8bdf4a41701866dabe996e4"
+    },
+    {
+      "name": "Spot Order Batch Witness",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "96f5c1bee23481335ff4aece32fe1dfa1aa40a944a66d2d6edc9a9a5"
+    },
+    {
+      "name": "Fee Switch Pool Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "f002facfd69d51b63e7046c6d40349b0b17c8dd775ee415c66af3ccc"
+    },
+    {
+      "name": "Fee Switch Pool Contract",
+      "version": 2,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "9dee0659686c3ab807895c929e3284c11222affd710b09be690f924d"
+    },
+    {
+      "name": "Balance Pool Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "f60fd1e70f4b9dfc09cdde8d7f7f1277de2694c82a516d7d3cc9e03e"
+    },
+    {
+      "name": "Balance Pool Contract",
+      "version": 2,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "c5283689ea30e0920c50adf77345b5809c05c962cc111e0f1d2dbedb"
+    },
+    {
+      "name": "Stableswap Pool Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "5d3df99fcfbbf282bd76a3d76a2e30bdd22e61c56f1462447938933b"
+    },
+    {
+      "name": "Royalty Pool Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 2,
+      "scriptHash": "cb684a69e78907a9796b21fc150a758af5f2805e5ed5d5a8ce9f76f1"
     }
   ]
 }
