@@ -1,0 +1,20 @@
+{
+  "projectName": "OrbitWan xOTC",
+  "labelPrefix": "OrbitWan xOTC",
+  "github": "https://github.com/OrbitWan/xotc",
+  "website": "https://xotc.orbitwan.io",
+  "twitter": "orbitwanio",
+  "category": "DEX",
+  "description": "Posted-price offers on Cardano: ADA for wanBTC, wanUSDT and wanUSDC. One immutable Plutus V3 contract, no admin key.",
+  "contracts": [
+    {
+      "name": "Offer Contract",
+      "version": 1,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "d8dca28a22475d2bf4614e3ca59735a7bac3ad1e8310d3ca96c1f59d",
+      "github": "https://github.com/OrbitWan/xotc",
+      "description": "Holds each offer. A sale pays the posted price, a 0.5% fee to the treasury and returns the rest; only the poster can withdraw."
+    }
+  ]
+}
