@@ -8,42 +8,6 @@
   "description": "Lovejoin: A Cardano-native, non-custodial privacy mixer",
   "contracts": [
     {
-      "name": "Mix Box",
-      "version": 1,
-      "language": "PLUTUS",
-      "languageVersion": 3,
-      "scriptHash": "c145c10ff4bcaef7f5a4dbb3fcbfddca4b6c7b08191b0690b12f1fad",
-      "github": "https://github.com/logical-mechanism/Lovejoin/tree/main/contracts",
-      "description": "This contract holds the pooled mix boxes and defers validation to the mix logic."
-    },
-    {
-      "name": "Mix Logic",
-      "version": 1,
-      "language": "PLUTUS",
-      "languageVersion": 3,
-      "scriptHash": "0dad3046f90d9cf8354eb8b743d50fb2c25d581269b94ffcdf59499e",
-      "github": "https://github.com/logical-mechanism/Lovejoin/tree/main/contracts",
-      "description": "This contract verifies the mix and withdraw proofs once per transaction."
-    },
-    {
-      "name": "Fee Pool",
-      "version": 1,
-      "language": "PLUTUS",
-      "languageVersion": 3,
-      "scriptHash": "a072c7e839ab9ddf24344d0b2f70f56971f187fee8089f5f64212406",
-      "github": "https://github.com/logical-mechanism/Lovejoin/tree/main/contracts",
-      "description": "This contract holds the shared fee shards that pay for mix transactions."
-    },
-    {
-      "name": "Reference Minter",
-      "version": 1,
-      "language": "PLUTUS",
-      "languageVersion": 3,
-      "scriptHash": "f5592689c7ab35553a3234a54c0ee118090a5762c696819a53a5a826",
-      "github": "https://github.com/logical-mechanism/Lovejoin/tree/main/contracts",
-      "description": "This contract mints the one-of-one Lovejoin reference token."
-    },
-    {
       "name": "Reference Holder",
       "version": 1,
       "language": "PLUTUS",
@@ -51,6 +15,42 @@
       "scriptHash": "288fea77a0f674c6080aadd8ed3ca42cd5a920bf1f00c0d3e63306e4",
       "github": "https://github.com/logical-mechanism/Lovejoin/tree/main/contracts",
       "description": "This contract permanently holds the reference token and protocol parameters."
+    },
+    {
+      "name": "Mix Box v2 (5 ADA)",
+      "version": 3,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "dd94113cc07cbe0f0c331c9ba10477795ca90bfb1e3e348b40d15a31",
+      "github": "https://github.com/logical-mechanism/Lovejoin/tree/29573c58ccee/contracts",
+      "description": "This contract holds this pool's mix boxes and defers validation to its mix logic."
+    },
+    {
+      "name": "Mix Logic v2 (5 ADA)",
+      "version": 3,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "a6a85074e56cf486a1c6620181902cf4726a7f5bb11878ae23eb99f5",
+      "github": "https://github.com/logical-mechanism/Lovejoin/tree/29573c58ccee/contracts",
+      "description": "This contract verifies this pool's mix and withdraw proofs once per transaction."
+    },
+    {
+      "name": "Fee Pool v2 (5 ADA)",
+      "version": 3,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "616001e596dd1559b7a03e588d5c252ae2c9b9bb3127b109fd90246a",
+      "github": "https://github.com/logical-mechanism/Lovejoin/tree/29573c58ccee/contracts",
+      "description": "This contract holds this pool's shared fee shards that pay for its mix transactions."
+    },
+    {
+      "name": "Reference Minter v2 (5 ADA)",
+      "version": 3,
+      "language": "PLUTUS",
+      "languageVersion": 3,
+      "scriptHash": "fcb3f5ec5f58d8fc31cf60408b77a1fe4f431880dc810bd12e8a9aa2",
+      "github": "https://github.com/logical-mechanism/Lovejoin/tree/29573c58ccee/contracts",
+      "description": "This contract mints this pool's one-of-one reference token, from its launch's seed."
     }
   ]
 }
